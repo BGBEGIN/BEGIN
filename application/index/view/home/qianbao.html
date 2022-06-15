@@ -1,0 +1,151 @@
+<div class="admetro-page-content">
+        <!-- Top Header Area -->
+        <header class="top-header-area d-flex align-items-center justify-content-between">
+            <div class="left-side-content-area d-flex align-items-center">
+
+
+                <!-- Triggers -->
+                <div class="admetro-triggers mr-1 mr-sm-3 ml-2">
+                    <div class="menu-collasped" id="menuCollasped">
+                        <i class="ti-align-right"></i>
+                    </div>
+                    <div class="mobile-menu-open" id="mobileMenuOpen">
+                        <i class="ti-align-right"></i>
+                    </div>
+                </div>
+                <!-- Mobile Logo -->
+                <div class="mobile-logo mr-3 mr-sm-4">
+                    <a href="index.html"><img src="/nstatic/img/core-img/small-logo.png" alt="Mobile Logo"></a>
+                </div>
+
+
+            </div>
+
+            <div class="right-side-navbar d-flex align-items-center justify-content-end">
+                <!-- Top Bar Nav -->
+                <ul class="d-flex align-items-center">
+                      
+                    <li class="nav-item dropdown">
+                        <button type="button" class="btn dropdown-toggle">
+                            <div class="sub-img aa">
+                                <?php
+                                    if($addr)
+                                    {
+                                        echo substr($addr,0,6).'****'.substr($addr,-4);
+                                    }else{
+                                    
+                                        echo  la('b127');
+                                    }
+                                ?>
+                            </div>
+                        </button>
+
+                    </li>
+                    
+                    <?php
+                        if($addr)
+                        {
+                    
+                    ?>
+                     <li class="nav-item dropdown">
+                        <button type="button" class="btn dropdown-toggle">
+                                <div class="sub-img bb" style="width:30px">
+                                    <?php echo la('b17');?>
+                                </div>
+                        </button>
+                    </li> 
+                    
+                    <?php
+                        }
+                    ?>
+                    <li class="nav-item dropdown">
+                        <button type="button" class="btn dropdown-toggle mr-3" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                            <div class="btn-img">
+                                <?php
+                                    echo $_SESSION['la']?$_SESSION['la']:'EN';
+                                ?>
+                            </div>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="/index/home/index?la=EN">English</a>
+                            <a class="dropdown-item" href="/index/home/index?la=CN">简体中文</a>
+                            <a class="dropdown-item" href="/index/home/index?la=FAN">繁体中文</a>
+                        </div>
+                     </li>
+                  </ul>
+            </div>
+        </header>
+    </div>
+  <script src="/nstatic/js/jquery.min.js"></script>
+  <script src="/nstatic/js/web3.min.js"></script>
+  <script src="/nstatic/js/jquery.min.js"></script>
+  <script src="/nstatic/js/web3provider.js"></script>
+  <script src="/nstatic/js/web3model.min.js"></script>
+  <!--<script src="/nstatic/js/w3model.js"></script>-->
+  <script>
+
+	    const connentWall = async () => { 
+	       if (window.ethereum) {
+    			web3Provider = window.ethereum;
+    			try {
+    				// 请求用户授权
+    				window.ethereum.enable();
+    			} catch (error) {
+    				// 用户不授权时
+    				alert('请授权');
+    				return;
+    			}
+    		} else if (window.web3) {
+    		   
+    			// 老版 MetaMask Legacy dapp browsers...
+    			web3Provider = window.web3.currentProvider;
+    		} else {
+    		    
+    			alert('请选择BSC网络');
+    			return;
+    		}
+    		const web3 = new Web3(web3Provider); //web3js就是你需要的web3实例
+    		this.web3 = web3;
+    		const acc = await this.web3.eth.getAccounts();
+    		this.accountPsc = acc[0];
+    		const that = this;
+    		var addr = this.accountPsc;
+    		if(!addr)
+    		{
+    		    alert('please link bsc wallet');
+    		    return;
+    		}
+    		var xaddr = addr.substr(0,6)+'****'+addr.substr(-4);
+    		$('.aa').html(xaddr);
+    		
+    		var top = "<?php if(!empty($id)){ echo $id;}else{ echo '';}?>";
+    		$.ajax({
+    		    data:{
+    		        'top':top,
+    		        'addr':addr,
+    		    },
+    		    type:'post',
+    		    url:"/index/home/reg",
+    		    dataType:'json',
+    		    success:function(data)
+    		    {
+    		        if(data.state == 201)
+    		        {
+    		            alert(data.msg);
+    		        }else{
+    		            window.location.reload();
+    		        }
+    		    }
+    		    
+    		})
+	   }
+	   
+	   $(".aa").click(function(){
+	       connentWall()
+	   })
+	   $(".bb").click(function(){
+	      window.location.href = '/index/home/logout';
+	   })
+
+  </script>

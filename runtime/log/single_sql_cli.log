@@ -1,0 +1,386 @@
+[2022-06-15T15:55:01+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.001831s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000482s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_product` [ RunTime:0.002181s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `isdelete` = 0 [ RunTime:0.001192s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000830s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 20702.28 , `Open` = 22681.71 , `Close` = 22681.71 , `High` = 22785.71 , `Low` = 20638.89 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 15 [ RunTime:0.006323s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000824s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.0607 , `Open` = 0.0621 , `Close` = 0.063 , `High` = 0.063 , `Low` = 0.0604 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 25 [ RunTime:0.005635s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.001157s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1.4201 , `Open` = 1.5796 , `Close` = 1.5812 , `High` = 1.6204 , `Low` = 1.4011 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 26 [ RunTime:0.004556s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000578s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 13.4123 , `Open` = 14.854 , `Close` = 14.8901 , `High` = 14.9684 , `Low` = 13.3575 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 27 [ RunTime:0.004100s ]
+0
+[2022-06-15T15:55:01+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000556s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.8789 , `Open` = 0.9475 , `Close` = 0.9489 , `High` = 0.9519 , `Low` = 0.8746 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 28 [ RunTime:0.001041s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000869s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.051523 , `Open` = 0.05722 , `Close` = 0.057234 , `High` = 0.057441 , `Low` = 0.051181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 29 [ RunTime:0.001303s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.001029s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 5.1297 , `Open` = 5.6016 , `Close` = 5.6161 , `High` = 5.635 , `Low` = 5.0943 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 30 [ RunTime:0.000752s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000644s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.048079 , `Open` = 0.05929 , `Close` = 0.059298 , `High` = 0.059694 , `Low` = 0.047994 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 31 [ RunTime:0.001062s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000733s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1091.38 , `Open` = 1250.65 , `Close` = 1250.66 , `High` = 1270 , `Low` = 1082.38 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 22 [ RunTime:0.001109s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.000903s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 3.2798 , `Open` = 3.7165 , `Close` = 3.7171 , `High` = 3.7315 , `Low` = 3.2628 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 40 [ RunTime:0.000908s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000795s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 207.21 , `Open` = 227.38 , `Close` = 227.88 , `High` = 228.35 , `Low` = 206.94 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 33 [ RunTime:0.000860s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000775s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 2.3883 , `Open` = 2.5882 , `Close` = 2.5869 , `High` = 2.6266 , `Low` = 2.366 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 34 [ RunTime:0.000667s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000553s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.5835 , `Open` = 0.6526 , `Close` = 0.6528 , `High` = 0.6617 , `Low` = 0.5832 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 35 [ RunTime:0.000901s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000832s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.78E-6 , `Open` = 8.29E-6 , `Close` = 8.29E-6 , `High` = 8.35E-6 , `Low` = 7.67E-6 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 36 [ RunTime:0.000770s ]
+0
+[2022-06-15T15:55:02+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000591s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.0493 , `Open` = 7.4624 , `Close` = 7.4736 , `High` = 7.7007 , `Low` = 7.0052 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 38 [ RunTime:0.001261s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.001072s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 27.5559 , `Open` = 31.0171 , `Close` = 31.0461 , `High` = 31.201 , `Low` = 27.3762 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 39 [ RunTime:0.000761s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 42 LIMIT 1 [ RunTime:0.000572s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.30358 , `Open` = 0.3216 , `Close` = 0.32172 , `High` = 0.32414 , `Low` = 0.30033 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 42 [ RunTime:0.000949s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000806s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 15.1383 , `Open` = 16.7059 , `Close` = 16.7159 , `High` = 16.8365 , `Low` = 15.0181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 43 [ RunTime:0.000921s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000762s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.455963 , `Open` = 0.503299 , `Close` = 0.50376 , `High` = 0.505711 , `Low` = 0.451 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 44 [ RunTime:0.001121s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000816s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.378594 , `Open` = 0.432562 , `Close` = 0.432771 , `High` = 0.435291 , `Low` = 0.376983 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 45 [ RunTime:0.001127s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.005044s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 6.1923 , `Open` = 6.4054 , `Close` = 6.4067 , `High` = 6.9181 , `Low` = 6.13 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 46 [ RunTime:0.000858s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000761s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 48 LIMIT 1 [ RunTime:0.000877s ]
+0
+[2022-06-15T15:55:03+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 4495.45 , `Open` = 5075.27 , `Close` = 5076.69 , `High` = 5107.11 , `Low` = 4453.29 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279701  WHERE  `id` = 48 [ RunTime:0.001264s ]
+0
+[2022-06-15T15:55:06+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.005200s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:06+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.002498s ]
+0
+[2022-06-15T15:55:06+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000527s ]
+0
+[2022-06-15T15:55:06+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_order` [ RunTime:0.001364s ]
+0
+[2022-06-15T15:55:06+08:00][ sql ] [ SQL ] SELECT * FROM `lc_order` WHERE  `ostaus` = 0  AND `selltime` < 1655279706 LIMIT 0,50 [ RunTime:0.000611s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.002811s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000611s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_product` [ RunTime:0.001987s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `isdelete` = 0 [ RunTime:0.001103s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000786s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 20701.07 , `Open` = 22681.71 , `Close` = 22681.71 , `High` = 22785.71 , `Low` = 20638.89 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 15 [ RunTime:0.000863s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000594s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.0607 , `Open` = 0.0621 , `Close` = 0.063 , `High` = 0.063 , `Low` = 0.0604 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 25 [ RunTime:0.000953s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000878s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1.4201 , `Open` = 1.5796 , `Close` = 1.5812 , `High` = 1.6204 , `Low` = 1.4011 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 26 [ RunTime:0.001018s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000984s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 13.3956 , `Open` = 14.854 , `Close` = 14.8901 , `High` = 14.9684 , `Low` = 13.3575 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 27 [ RunTime:0.000967s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000839s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.8791 , `Open` = 0.9475 , `Close` = 0.9489 , `High` = 0.9519 , `Low` = 0.8746 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 28 [ RunTime:0.001018s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000790s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.05147 , `Open` = 0.05722 , `Close` = 0.057234 , `High` = 0.057441 , `Low` = 0.051181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 29 [ RunTime:0.001045s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000848s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 5.1341 , `Open` = 5.6016 , `Close` = 5.6161 , `High` = 5.635 , `Low` = 5.0943 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 30 [ RunTime:0.001042s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000887s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.048059 , `Open` = 0.05929 , `Close` = 0.059298 , `High` = 0.059694 , `Low` = 0.047994 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 31 [ RunTime:0.000992s ]
+0
+[2022-06-15T15:55:08+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000753s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1090.19 , `Open` = 1250.65 , `Close` = 1250.66 , `High` = 1270 , `Low` = 1082.38 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 22 [ RunTime:0.001342s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.001004s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 3.2778 , `Open` = 3.7165 , `Close` = 3.7171 , `High` = 3.7315 , `Low` = 3.2628 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 40 [ RunTime:0.001240s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000986s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 207.21 , `Open` = 227.38 , `Close` = 227.88 , `High` = 228.35 , `Low` = 206.94 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 33 [ RunTime:0.000802s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000800s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 2.3896 , `Open` = 2.5882 , `Close` = 2.5869 , `High` = 2.6266 , `Low` = 2.366 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 34 [ RunTime:0.000913s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000816s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.5836 , `Open` = 0.6526 , `Close` = 0.6528 , `High` = 0.6617 , `Low` = 0.5831 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 35 [ RunTime:0.000986s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000838s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.78E-6 , `Open` = 8.29E-6 , `Close` = 8.29E-6 , `High` = 8.35E-6 , `Low` = 7.67E-6 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 36 [ RunTime:0.000989s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000856s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.0493 , `Open` = 7.4624 , `Close` = 7.4736 , `High` = 7.7007 , `Low` = 7.0052 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 38 [ RunTime:0.001272s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000975s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 27.5521 , `Open` = 31.0171 , `Close` = 31.0461 , `High` = 31.201 , `Low` = 27.3762 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 39 [ RunTime:0.000844s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 42 LIMIT 1 [ RunTime:0.000734s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.30356 , `Open` = 0.3216 , `Close` = 0.32172 , `High` = 0.32414 , `Low` = 0.30033 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 42 [ RunTime:0.000816s ]
+0
+[2022-06-15T15:55:09+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000582s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 15.1549 , `Open` = 16.7059 , `Close` = 16.7159 , `High` = 16.8365 , `Low` = 15.0181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 43 [ RunTime:0.001110s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000623s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.455754 , `Open` = 0.503299 , `Close` = 0.50376 , `High` = 0.505711 , `Low` = 0.451 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 44 [ RunTime:0.000939s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000875s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.378753 , `Open` = 0.432562 , `Close` = 0.432771 , `High` = 0.435291 , `Low` = 0.376983 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 45 [ RunTime:0.000716s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000572s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 6.1889 , `Open` = 6.4054 , `Close` = 6.4067 , `High` = 6.9181 , `Low` = 6.13 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 46 [ RunTime:0.000821s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000624s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 48 LIMIT 1 [ RunTime:0.000938s ]
+0
+[2022-06-15T15:55:10+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 4495.81 , `Open` = 5075.27 , `Close` = 5076.69 , `High` = 5107.11 , `Low` = 4453.29 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279708  WHERE  `id` = 48 [ RunTime:0.000888s ]
+0
+[2022-06-15T15:55:12+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:12+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.002878s ]
+0
+[2022-06-15T15:55:12+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000715s ]
+0
+[2022-06-15T15:55:12+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_order` [ RunTime:0.001768s ]
+0
+[2022-06-15T15:55:12+08:00][ sql ] [ SQL ] SELECT * FROM `lc_order` WHERE  `ostaus` = 0  AND `selltime` < 1655279712 LIMIT 0,50 [ RunTime:0.000767s ]
+0
+[2022-06-15T15:55:14+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:14+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.003000s ]
+0
+[2022-06-15T15:55:14+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000803s ]
+0
+[2022-06-15T15:55:14+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_product` [ RunTime:0.002660s ]
+0
+[2022-06-15T15:55:14+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `isdelete` = 0 [ RunTime:0.005161s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000893s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 20726.49 , `Open` = 22681.71 , `Close` = 22681.71 , `High` = 22785.71 , `Low` = 20638.89 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 15 [ RunTime:0.001028s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000854s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.0607 , `Open` = 0.0621 , `Close` = 0.063 , `High` = 0.063 , `Low` = 0.0604 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 25 [ RunTime:0.000957s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000882s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1.4201 , `Open` = 1.5796 , `Close` = 1.5812 , `High` = 1.6204 , `Low` = 1.4011 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 26 [ RunTime:0.001313s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000901s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 13.3956 , `Open` = 14.854 , `Close` = 14.8901 , `High` = 14.9684 , `Low` = 13.3575 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 27 [ RunTime:0.000772s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.000639s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.8791 , `Open` = 0.9475 , `Close` = 0.9489 , `High` = 0.9519 , `Low` = 0.8746 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 28 [ RunTime:0.001331s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000860s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.051465 , `Open` = 0.05722 , `Close` = 0.057234 , `High` = 0.057441 , `Low` = 0.051181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 29 [ RunTime:0.001029s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000846s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 5.1341 , `Open` = 5.6016 , `Close` = 5.6161 , `High` = 5.635 , `Low` = 5.0943 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 30 [ RunTime:0.000970s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000826s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.048042 , `Open` = 0.05929 , `Close` = 0.059298 , `High` = 0.059694 , `Low` = 0.047994 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 31 [ RunTime:0.001051s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000770s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1091.49 , `Open` = 1250.65 , `Close` = 1250.66 , `High` = 1270 , `Low` = 1082.38 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 22 [ RunTime:0.000931s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.000881s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 3.2812 , `Open` = 3.7165 , `Close` = 3.7171 , `High` = 3.7315 , `Low` = 3.2628 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 40 [ RunTime:0.001009s ]
+0
+[2022-06-15T15:55:15+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000872s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 207.21 , `Open` = 227.38 , `Close` = 227.88 , `High` = 228.35 , `Low` = 206.94 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 33 [ RunTime:0.001113s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000844s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 2.3896 , `Open` = 2.5882 , `Close` = 2.5869 , `High` = 2.6266 , `Low` = 2.366 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 34 [ RunTime:0.001020s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 35 LIMIT 1 [ RunTime:0.000846s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.5838 , `Open` = 0.6526 , `Close` = 0.6528 , `High` = 0.6617 , `Low` = 0.5831 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 35 [ RunTime:0.000966s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 36 LIMIT 1 [ RunTime:0.000825s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.78E-6 , `Open` = 8.29E-6 , `Close` = 8.29E-6 , `High` = 8.35E-6 , `Low` = 7.67E-6 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 36 [ RunTime:0.000770s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000597s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 7.0443 , `Open` = 7.4624 , `Close` = 7.4736 , `High` = 7.7007 , `Low` = 7.0052 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 38 [ RunTime:0.001015s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 39 LIMIT 1 [ RunTime:0.000849s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 27.5792 , `Open` = 31.0171 , `Close` = 31.0461 , `High` = 31.201 , `Low` = 27.3762 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 39 [ RunTime:0.001012s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 42 LIMIT 1 [ RunTime:0.000941s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.30356 , `Open` = 0.3216 , `Close` = 0.32172 , `High` = 0.32414 , `Low` = 0.30033 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 42 [ RunTime:0.001014s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 43 LIMIT 1 [ RunTime:0.000965s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 15.1757 , `Open` = 16.7059 , `Close` = 16.7159 , `High` = 16.8365 , `Low` = 15.0181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 43 [ RunTime:0.005136s ]
+0
+[2022-06-15T15:55:16+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 44 LIMIT 1 [ RunTime:0.000889s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.456014 , `Open` = 0.503299 , `Close` = 0.50376 , `High` = 0.505711 , `Low` = 0.451 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 44 [ RunTime:0.000656s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 45 LIMIT 1 [ RunTime:0.000559s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.37886 , `Open` = 0.432562 , `Close` = 0.432771 , `High` = 0.435291 , `Low` = 0.376983 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 45 [ RunTime:0.000991s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 46 LIMIT 1 [ RunTime:0.000844s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 6.1914 , `Open` = 6.4054 , `Close` = 6.4067 , `High` = 6.9181 , `Low` = 6.13 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 46 [ RunTime:0.000907s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 47 LIMIT 1 [ RunTime:0.000931s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 48 LIMIT 1 [ RunTime:0.001550s ]
+0
+[2022-06-15T15:55:17+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 4495.81 , `Open` = 5075.27 , `Close` = 5076.69 , `High` = 5107.11 , `Low` = 4453.29 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279715  WHERE  `id` = 48 [ RunTime:0.000642s ]
+0
+[2022-06-15T15:55:19+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:19+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.003066s ]
+0
+[2022-06-15T15:55:19+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000670s ]
+0
+[2022-06-15T15:55:19+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_order` [ RunTime:0.005722s ]
+0
+[2022-06-15T15:55:19+08:00][ sql ] [ SQL ] SELECT * FROM `lc_order` WHERE  `ostaus` = 0  AND `selltime` < 1655279719 LIMIT 0,50 [ RunTime:0.000701s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ DB ] CONNECT:[ UseTime:0.004826s ] mysql:host=127.0.0.1;port=3306;dbname=gz;charset=utf8mb4
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_info` [ RunTime:0.003091s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SELECT `ban_ip` FROM `lc_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000695s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SHOW COLUMNS FROM `lc_product` [ RunTime:0.002203s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `isdelete` = 0 [ RunTime:0.001164s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000772s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 20743.07 , `Open` = 22681.71 , `Close` = 22681.71 , `High` = 22785.71 , `Low` = 20638.89 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 15 [ RunTime:0.000748s ]
+0
+[2022-06-15T15:55:21+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 25 LIMIT 1 [ RunTime:0.000626s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.0607 , `Open` = 0.0621 , `Close` = 0.063 , `High` = 0.063 , `Low` = 0.0604 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 25 [ RunTime:0.000979s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 26 LIMIT 1 [ RunTime:0.000759s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1.4201 , `Open` = 1.5796 , `Close` = 1.5812 , `High` = 1.6204 , `Low` = 1.4011 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 26 [ RunTime:0.001129s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 27 LIMIT 1 [ RunTime:0.000861s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 13.3956 , `Open` = 14.854 , `Close` = 14.8901 , `High` = 14.9684 , `Low` = 13.3575 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 27 [ RunTime:0.001213s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 28 LIMIT 1 [ RunTime:0.001001s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.8778 , `Open` = 0.9475 , `Close` = 0.9489 , `High` = 0.9519 , `Low` = 0.8746 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 28 [ RunTime:0.001192s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 29 LIMIT 1 [ RunTime:0.000872s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.051501 , `Open` = 0.05722 , `Close` = 0.057234 , `High` = 0.057441 , `Low` = 0.051181 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 29 [ RunTime:0.000865s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000705s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 5.1341 , `Open` = 5.6016 , `Close` = 5.6161 , `High` = 5.635 , `Low` = 5.0943 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 30 [ RunTime:0.000923s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 31 LIMIT 1 [ RunTime:0.000672s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 0.048016 , `Open` = 0.05929 , `Close` = 0.059298 , `High` = 0.059694 , `Low` = 0.047988 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 31 [ RunTime:0.000889s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 22 LIMIT 1 [ RunTime:0.000733s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 1090.98 , `Open` = 1250.65 , `Close` = 1250.66 , `High` = 1270 , `Low` = 1082.38 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 22 [ RunTime:0.001182s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 40 LIMIT 1 [ RunTime:0.000894s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 3.2807 , `Open` = 3.7165 , `Close` = 3.7171 , `High` = 3.7315 , `Low` = 3.2628 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 40 [ RunTime:0.000901s ]
+0
+[2022-06-15T15:55:22+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 33 LIMIT 1 [ RunTime:0.000967s ]
+0
+[2022-06-15T15:55:23+08:00][ sql ] [ SQL ] UPDATE `lc_product`  SET `Price` = 207.21 , `Open` = 227.38 , `Close` = 227.88 , `High` = 228.35 , `Low` = 206.94 , `Diff` = 0 , `DiffRate` = 0 , `UpdateTime` = 1655279721  WHERE  `id` = 33 [ RunTime:0.001573s ]
+0
+[2022-06-15T15:55:23+08:00][ sql ] [ SQL ] SELECT * FROM `lc_product` WHERE  `id` = 34 LIMIT 1 [ RunTime:0.000839s ]
+0

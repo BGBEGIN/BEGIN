@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "SourceHanSansCN";
+  src: url("./Futura-Bk-BT-Book.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceHanSansCN-Bold";
+  src: url("./Futura-Md-BT-Bold.ttf");
+  font-weight: Bold;
+  font-style: normal;
+}

@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>BEGIN</title>
+    <link rel="icon" href="/nstatic/img/bg.png">
+    <link rel="stylesheet" href="/nstatic/css/default-assets/notification.css">
+    <link rel="stylesheet" href="/nstatic/css/c3.min.css">
+
+    <link rel="stylesheet" href="/nstatic/style.css?v=1">
+
+</head>
+
+<body>
+<!-- Preloader -->
+<div class="admetro-page-wrapper">
+    <!-- Sidemenu Area -->
+    {include file='home/menu'}
+
+    <!-- Page Content -->
+    {include file='home/qianbao'}
+</div>
+
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <div class="container-fluid">
+            <div class="sc-hkeOVe jnRNzj">
+                <div height="100%" class="sc-gKAaRy bziaSQ">
+                    <div width="100%" class="sc-gKAaRy sc-iCoGMd sc-kGVuwA bMUJym eilRWe cKJMSe">
+
+                        <div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-bTJQgd crMrTS">
+                            <h1 scale="xl" color="text" class="sc-jJMGnK kYzmFY YRVmv">
+                            <?php echo la('b72');?></h1>
+                            <div class="sc-gKAaRy sc-iCoGMd KhHSq dsDIZp">
+                                <div  color="textSubtle" class=" iUFHtz">
+                                    <?php echo la('b73');?>。
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <?php
+                            $i = 0;
+                        ?>
+                        {foreach $list as $key=>$vo}
+                        <div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-gVtoEh eGGgEq sc-bMQVVx kUIYsa">
+                            <?php
+                                $i++;
+                            ?>
+                            <div class="sc-kuRTQD bWSGQQ"></div>
+                            
+                            <div class="sc-gKAaRy sc-iCoGMd KhHSq ejFCLQ">
+                                <div class="sc-uFHJe lbWpUs">
+                                    <div class="sc-iwajpm cNtwyy sc-ktvWjP jfhxYY">
+                                        <div class="sc-gKAaRy sc-gXZlLH KhHSq cODCSI" >
+                                            <div scale="md" class="sc-gKAaRy sc-bShgHC KhHSq jDisVs" style="height:300px">
+                                                <div scale="md" class="sc-gKAaRy sc-juXuNZ KhHSq fhhiwy">
+                                                    
+                                                    <div class="sc-hiKfDv hkDhsP sc-ecQkzk hzpKKl">
+                                                        <img src="{$vo.img}" class="sc-cBoqAE ">
+                                                    </div>
+                                                    <!--<div font-size="42px" color="white"-->
+                                                    <!--     class=" sc-exqIPC ePYBgf leuDbu">{$vo.title}-->
+                                                    <!--</div>-->
+                                                    
+                                                </div>
+                                            </div>
+                                            <div class="sc-gKAaRy sc-iCoGMd irdlZA ljGjBS" style="margin-top:-15%">
+                                                <div class="sc-gKAaRy euWnkr">
+                                                    <div style="font-size:30px"><?php echo la('b68');?>&nbsp;V{$i}</div>
+                                                    <div color="textSubtle" class="kyIlDy" style="font-size:18px;float:left;font-weight:bold">
+                                                        <?php echo la('b74');?>&nbsp;<span style="color:rgb(173, 229, 138)">{$vo.bg}</span>&nbsp;
+                                                        BG
+                                                    </div>
+                                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <div color="textSubtle" class="kyIlDy buy" style="font-size:18px;float:right;color:rgb(173, 229, 138);font-weight: bold;" attr='{$vo.bg}' addr="{$vo.addr}" >
+                                                        <?php echo la('b75');?>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                        {/foreach}
+                        
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Must needed plugins to the run this Template -->
+        <script src="/nstatic/js/jquery.min.js"></script>
+        <script src="/nstatic/js/popper.min.js"></script>
+        <script src="/nstatic/js/bootstrap.min.js"></script>
+        <script src="/nstatic/js/admetro.bundle.js"></script>
+
+        <!-- Active JS -->
+        <script src="/nstatic/js/default-assets/active.js"></script>
+
+        <!-- These plugins only need for the run this page -->
+        <script src="/nstatic/js/default-assets/todolist.js"></script>
+        <script src="/nstatic/js/default-assets/bootstrap-growl.min.js"></script>
+        <script src="/nstatic/js/default-assets/bootstrap-growl-active.js"></script>
+
+        <script src="/nstatic/js/default-assets/sparkline-small.js"></script>
+        <script src="/nstatic/js/default-assets/sparkline.min.js"></script>
+        <script src="/nstatic/js/default-assets/sparkline.js"></script>
+        <script src="/nstatic/js/default-assets/chart-sparkline.js"></script>
+        <script src="/nstatic/js/amcharts.js"></script>
+        <script src="/nstatic/js/serial.js"></script>
+        <script src="/nstatic/js/light.js"></script>
+        <script src="/nstatic/js/default-assets/column-barchart.js"></script>
+        <script src="/nstatic/js/default-assets/line-and-areachart.js"></script>
+
+        <script src="/nstatic/js/d3.min.js"></script>
+        <script src="/nstatic/js/c3.min.js"></script>
+        <script src="/nstatic/js/default-assets/c3-api-chart.js"></script>
+        <script src="/nstatic/js/default-assets/c3-chart-script.js"></script>
+        <script src="/static/plugs/layui/layui.all.js"></script>
+</body>
+<script>
+    let b76 = "<?php echo la('b76');?>";
+    let b77 = "<?php echo la('b77');?>";
+    let b75 = "<?php echo la('b75');?>";
+    let b78 = "<?php echo la('b78');?>";
+    async function onConnect(ABI,contract_addr,amount,addr1) {
+
+        const Web3Modal = window.Web3Modal.default;
+        const WalletConnectProvider = window.WalletConnectProvider.default;
+        const providerOptions = {
+            walletconnect: {
+                package: WalletConnectProvider,
+                options: {
+                }
+            },
+        };
+
+        web3Modal = new Web3Modal({
+            cacheProvider: false, 
+            providerOptions, 
+            disableInjectedProvider: false,
+        });
+                
+        try {
+            provider = await web3Modal.connect()
+            provider.enable()
+        } catch (e) {
+            console.log("Could not get a wallet connection", e);
+            return;
+        }
+        
+        provider = await web3Modal.connect()
+        provider.enable()
+        const web3 = new Web3(provider);
+        const accounts = await web3.eth.getAccounts()
+        selectedAccount = accounts[0]
+
+        const contract = new web3.eth.Contract(ABI, contract_addr)
+        const gasPrice = await web3.eth.getGasPrice()
+        const balance = web3.utils.toWei(amount, 'ether');
+
+       
+        contract.methods.transfer(addr1, balance).send({
+            from: selectedAccount,
+            gasPrice: gasPrice,
+            gas: 100000,
+        }, function (err, tx) {
+            if (!err) {
+                alert(b76);
+                window.location.reload();
+            }else{
+                $(".buy").html(b75);
+            }
+
+            })
+       
+    }
+    $('.buy').click(function(){
+        layer.msg(b77)
+        //支付的金额
+        var amount = $(this).attr('attr');
+        var addr1 = $(this).attr('addr');
+		var url = 'https://bsc-dataseed1.ninicoin.io/';
+        var web3 = new Web3(new Web3.providers.HttpProvider(url));
+        var abi = [{"inputs":[{"internalType":"address","name":"tokenOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[],"name":"_destroyFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_inviterFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_taxFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"changeOwner","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"router","type":"address"}],"name":"changeRouter","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"claimTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"excludeFromFee","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"includeInFee","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"inviter","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"inviterAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"isExcludedFromFee","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"lastSellTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"rAmount","type":"uint256"}],"name":"tokenFromReflection","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalFees","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"uniswapV2Pair","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"stateMutability":"payable","type":"receive"}];
+        
+        //USDT余额
+        var contract_addr = "0xCD86A524318aa3dA29969F6a103032dAfDD70870";
+        var USDT = new web3.eth.Contract(abi,contract_addr);
+        function balanceOf(addr,amount,amount2,addr1){
+
+        	USDT.methods.balanceOf(addr).call(function(error, result){
+                
+        	    if(!error) {
+        			var bb = web3.utils.fromWei(result, 'ether');
+        			amount = Number(amount);
+        			if(bb < amount)
+        			{
+        		     	$(".buy").html(b75);
+        			    alert(b78);
+        			}else{
+        			    onConnect(abi,contract_addr,amount2,addr1);
+        			}
+        	    } else {
+        	        alert('error')
+        	    }
+        	});
+        }
+        balanceOf("{$addr}",amount,amount,addr1);
+       
+    })
+</script>
+
+</html>

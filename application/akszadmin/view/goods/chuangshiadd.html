@@ -1,0 +1,70 @@
+{extend name='akszadmin@main'}
+{block name="content"}
+<form onsubmit="return false;" id="GoodsForm" data-auto="true" method="post" class='layui-form layui-card' autocomplete="off">
+    <div class="layui-card-body think-box-shadow padding-left-40">
+        <div class="layui-form-item layui-row layui-col-space15">
+            <label class="layui-col-xs9 relative">
+                <span class="color-green">NFT名称</span>
+                <input name="title" required class="layui-input" placeholder="请输入NFT名称" value="{$vo.title|default=''}">
+            </label>
+        </div>
+        <div class="layui-form-item layui-row layui-col-space15">
+            <label class="layui-col-xs4 relative">
+                <span class="color-green">价格(BG)</span>
+                <input name="bg" required class="layui-input" placeholder="请输入价格" value="{$vo.bg|default=''}">
+            </label>
+        </div>
+        
+        <div class="layui-form-item layui-row layui-col-space15">
+            <label class="layui-col-xs4 relative">
+                <span class="color-green">限购数量</span>
+                <input name="number" required class="layui-input" placeholder="请输入限购数量" value="{$vo.number|default=''}">
+            </label>
+        </div>
+        
+        <div class="layui-form-item layui-row layui-col-space15">
+            <label class="layui-col-xs4 relative">
+                <span class="color-green">收款地址</span>
+                <input name="addr" required class="layui-input" placeholder="请输入收款地址" value="{$vo.addr|default=''}">
+            </label>
+        </div>
+        
+        <div class="layui-form-item">
+            <span class="color-green label-required-prev">NFT图片</span>
+            <table class="layui-table">
+                <thead>
+                    <tr>
+                        <td width="90px" class="text-center"><input name="img" type="hidden" value="{$vo.img|default=''}"></td>
+                    </tr>
+                </thead>
+            </table>
+            <script>$('[name="img"]').uploadOneImage()</script>
+        </div>
+
+        <div class="layui-form-item text-center">
+            {notempty name='vo.id'}<input type="hidden" name="id" value="{$vo.id}">{/notempty}
+            <button class="layui-btn" type="submit">保存</button>
+            <button class="layui-btn layui-btn-danger" ng-click="hsitoryBack()" type="button">取消编辑</button>
+        </div>
+    </div>
+</form>
+{/block}
+{block name='script'}
+<script>
+window.form.render();
+require(['ckeditor', 'angular'], function() {
+    window.createEditor('[name="content"]', { height: 500 });
+    var app = angular.module("GoodsForm", []).run(callback);
+    angular.bootstrap(document.getElementById(app.name), [app.name]);
+
+    function callback($rootScope) {
+        $rootScope.hsitoryBack = function() {
+            $.msg.confirm('确定要取消编辑吗？', function(index) {
+                history.back(), $.msg.close(index);
+            });
+        };
+    }
+
+})
+</script>
+{/block}

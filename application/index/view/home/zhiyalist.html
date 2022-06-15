@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>BEGIN</title>
+		<link rel="icon" href="/nstatic/img/bg.png">
+		<link rel="stylesheet" href="/nstatic/css/default-assets/notification.css">
+		<link rel="stylesheet" href="/nstatic/css/c3.min.css">
+
+		<link rel="stylesheet" href="/nstatic/style.css?v=1">
+
+	</head>
+
+	<body>
+		<!-- Preloader -->
+		<div id="preloader"></div>
+		<div class="admetro-page-wrapper">
+			<!-- Sidemenu Area -->
+			{include file='home/menu'}
+
+			<!-- Page Content -->
+			{include file='home/qianbao'}
+		</div>
+		<!-- Main Content Area -->
+		<div class="main-content">
+			<div class="container-fluid">
+				<div class="sc-gKAaRy sc-dwxYdI eXsKmp sc-bA-DTon jlHvZK jnRNzj">
+					<div class="sc-gKAaRy sc-iCoGMd sc-kGVuwA bMUJym eilRWe cKJMSe">
+						<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-bTJQgd crMrTS">
+							<div class="sc-gKAaRy sc-iCoGMd KhHSq dsDIZp">
+								<div width="100%" class="sc-gKAaRy jA-dlYl">
+									<h1 scale="xl" color="text" class=" sc-jJMGnK jJpLDy YRVmv">
+										<?php echo la('b90');?></h1>
+
+								</div>
+							</div>
+							<div class="sc-LvPXS dIvXvk"></div>
+						</div>
+						<div class="sc-gKAaRy KhHSq">
+							<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-gVtoEh eGGgEq sc-halSCM gzAmHc">
+								<div class="sc-liAPKD iduFZN">
+								    
+								    {foreach $list as $key=>$vo}
+									<div class="sc-iwajpm cNtwyy">
+										<div class="sc-gKAaRy KhHSq">
+											
+											<div class="sc-gKAaRy sc-dwxYdI gqtfhn iycgkA sc-gefPzt hYJzRO ">
+												<div class="sc-gKAaRy sc-iCoGMd KhHSq gSZEbO">
+													<div class="sc-gKAaRy KhHSq">
+														<div font-size="14px" color="text" class=" kpIQvD">
+														    <?php
+														        if($vo['type'] == 1)
+														        {
+														            echo la('b86');
+														        }
+														        if($vo['type'] == 2)
+														        {
+														            echo la('b91');
+														        }
+														        if($vo['type'] == 3)
+														        {
+														            echo la('b92');
+														        }
+														    ?>
+														</div>
+														<div color="upPrice" class=" cngvaO">
+														    <?php
+														        if($vo['type'] == 1)
+														        {
+														            echo $lixi['rilixi'];
+														        }
+														        if($vo['type'] == 2)
+														        {
+														            echo $lixi['zhoulixi'];;
+														        }
+														        if($vo['type'] == 3)
+														        {
+														           echo $lixi['yuelixi'];
+														        }
+														    ?>
+														    %</div>
+													</div>
+													<div class="sc-gKAaRy KhHSq">
+														<div font-size="14px" color="text" class=" dQAHP"><?php echo la('b128');?>
+														</div>
+														<div color="text" class="eodWtM aa{$vo.id}">0</div>
+													</div>
+												</div>
+											</div>
+											<div class="sc-gKAaRy sc-hrnFwn KhHSq bJSutl emvbts">
+												<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-intIzG isPSSz">
+													<div class="sc-gKAaRy KhHSq">
+														<div class="sc-gKAaRy KhHSq">
+															<div class="sc-gKAaRy sc-iCoGMd KhHSq eBUCzC">
+																<div class="sc-gKAaRy sc-iCoGMd KhHSq gbxTRt">
+																	<div class="sc-hiKfDv kWLqhv sc-jcwpoC fUUjpB"><img
+																			src="/nstatic/img/bg.png"
+																			class="sc-cBoqAE kzPIDt"></div>
+																	<div class="sc-gKAaRy euWnkr">
+																		<div font-size="14px" color="text"
+																			class=" kpIQvD"><?php echo la('b129');?>&nbsp;BG
+																		</div>
+																		<div color="white_black"
+																			class=" dCmMSZ">
+																			{$vo.amount}
+																		</div>
+																	</div>
+																</div>
+																<div class="sc-gKAaRy KhHSq"></div>
+															</div>
+															<div class="sc-gKAaRy sc-iCoGMd irdlZA eBUCzC">
+																<div class="sc-gKAaRy sc-iCoGMd KhHSq gbxTRt">
+																	<div class="sc-hiKfDv kWLqhv sc-jcwpoC fUUjpB"><img
+																			src="/nstatic/img/bg.png"
+																			class="sc-cBoqAE kzPIDt"></div>
+																	<div class="sc-gKAaRy euWnkr">
+																		<div font-size="14px" color="text"
+																			class=" kpIQvD"><?php echo la('b88');?>&nbsp;BGT
+																		</div>
+																		<div color="primary" class=" jEjhVi">
+																			{$vo.amount_bgb}
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-ieKCvr kAmFVJ">
+													<div class="sc-gKAaRy sc-iCoGMd KhHSq jZazPu" style="float:left">
+
+													</div>
+
+												</div>
+												
+											</div>
+										</div>
+									</div>
+                                    {/foreach}
+									
+							
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ======================================
+            ********* Page Wrapper Area End ***********
+            ======================================= -->
+
+			<!-- Must needed plugins to the run this Template -->
+			<script src="/nstatic/js/jquery.min.js"></script>
+			<script src="/nstatic/js/popper.min.js"></script>
+			<script src="/nstatic/js/bootstrap.min.js"></script>
+			<script src="/nstatic/js/admetro.bundle.js"></script>
+
+			<!-- Active JS -->
+			<script src="/nstatic/js/default-assets/active.js"></script>
+
+			<!-- These plugins only need for the run this page -->
+			<script src="/nstatic/js/default-assets/todolist.js"></script>
+			<script src="/nstatic/js/default-assets/bootstrap-growl.min.js"></script>
+			<script src="/nstatic/js/default-assets/bootstrap-growl-active.js"></script>
+
+			<script src="/nstatic/js/default-assets/sparkline-small.js"></script>
+			<script src="/nstatic/js/default-assets/sparkline.min.js"></script>
+			<script src="/nstatic/js/default-assets/sparkline.js"></script>
+			<script src="/nstatic/js/default-assets/chart-sparkline.js"></script>
+			<script src="/nstatic/js/amcharts.js"></script>
+			<script src="/nstatic/js/serial.js"></script>
+			<script src="/nstatic/js/light.js"></script>
+			<script src="/nstatic/js/default-assets/column-barchart.js"></script>
+			<script src="/nstatic/js/default-assets/line-and-areachart.js"></script>
+
+			<script src="/nstatic/js/d3.min.js"></script>
+			<script src="/nstatic/js/c3.min.js"></script>
+			<script src="/nstatic/js/default-assets/c3-api-chart.js"></script>
+			<script src="/nstatic/js/default-assets/c3-chart-script.js"></script>
+			<script src="/static/plugs/layui/layui.all.js"></script>
+	</body>
+    <style>
+			.modal-content {
+				background: #fff !important;
+				/*border-radius: 10px;*/
+				padding: 10px;
+				font-size: 16px;
+			}
+
+			.modal-header {
+				padding: 10px;
+			}
+
+			.close {
+				padding: 6px !important;
+			}
+
+			.modal-content input {
+				border-radius: 4px;
+				margin-bottom: 10px;
+				padding: 8px;
+				width: 100%;
+				border: none;
+				background: #addd89;
+				font-size: 14px;
+			}
+
+			.modal-content input:focus {
+				border: none;
+			}
+
+			.modal-body {
+				padding: 6px
+			}
+
+			input[type=text]::placeholder {
+				color: #fff;
+			}
+
+			.btn {
+				font-size: 14px;
+			}
+
+			.btn-primary {
+				background: #7cac66 !important;
+				font-size: 14px;
+				border: none
+			}
+			body .demo-class .layui-layer-btn0{
+              border-color: #E6E3E6;
+              background-color: #FFF;
+              color: black;
+             }
+             body .demo-class .layui-layer-btn1{
+              border-color: #E6E3E6;
+              background-color: #FFF;
+              color: black;
+             }
+		</style>
+</html>
+<script>
+    let b130 = "<?php echo la('b130'); ?>";
+    let b131 = "<?php echo la('b131'); ?>";
+    let b132 = "<?php echo la('b132'); ?>";
+    let b133 = "<?php echo la('b133'); ?>";
+    function countDown(time) {
+        // + new Date();返回的是当前时间总的毫秒数
+        var nowTime = +new Date();
+        var inTime = +new Date(time)//返回的是用户输入时间总的毫秒数
+        var secondTime = (inTime - nowTime) / 1000;//剩余时间总的秒数
+        var d = parseInt(secondTime / 60 / 60 / 24);//计算天数
+        d = d < 10 ? '0' + d : d;//当天数小于10时补0
+        var h = parseInt(secondTime / 60 / 60 % 24);//计算小时
+        h = h < 10 ? '0' + h : h;
+        var m = parseInt(secondTime / 60 % 60);  //计算分
+        m = m < 10 ? '0' + m : m;
+        var s = parseInt(secondTime % 60);       //计算当前秒数
+        s = s < 10 ? '0' + s : s;
+        return d + b130 + h + b131 + m + b132 +s +b133;
+    }
+    var type = "{$type}";
+    $.ajax({
+        type:'post',
+        url:'/index/home/zhiyajson',
+        data:{
+          type:type  
+        },
+        dataType:'json',
+        success:function(data)
+        {
+            var lists = data.list;
+            for(var i = 0 ;i<lists.length;i++)
+            {
+                let daotime = lists[i]['daotime'];
+                let ids = lists[i]['id'];
+                setInterval (function () {
+                    var r = countDown(daotime)
+                    $('.aa'+ids).html(r)
+                }, 1000);
+            }
+        }
+    })
+       
+</script>

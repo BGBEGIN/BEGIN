@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>BEGIN</title>
+		<link rel="icon" href="/nstatic/img/bg.png">
+		<link rel="stylesheet" href="/nstatic/css/default-assets/notification.css">
+		<link rel="stylesheet" href="/nstatic/css/c3.min.css">
+
+		<link rel="stylesheet" href="/nstatic/style.css?v=1">
+
+	</head>
+
+	<body>
+		<!-- Preloader -->
+		<div id="preloader"></div>
+
+		<div class="admetro-page-wrapper">
+            <!-- Sidemenu Area -->
+            {include file='home/menu'}
+        
+            <!-- Page Content -->
+            {include file='home/qianbao'}
+        </div>
+			<!-- Main Content Area -->
+			<div class="main-content">
+				<div class="container-fluid">
+					<div class="sc-hkeOVe jnRNzj">
+						<div height="100%" class="sc-gKAaRy bziaSQ ">
+							<div width="100%" class="sc-gKAaRy sc-iCoGMd sc-kGVuwA bMUJym eilRWe cKJMSe jlHvZK">
+
+								<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA sc-bTJQgd crMrTS">
+									<h1 scale="xl" color="text" class=" sc-jJMGnK kYzmFY " style="font-size:22px">
+										质押收益明细</h1>
+									<!--<div class="sc-gKAaRy sc-iCoGMd KhHSq dsDIZp">-->
+									<!--	<div font-size="14px" color="textSubtle" class=" iUFHtz">-->
+									<!--		加密收藏品和不可替代代币（NFT）的数字市场。购买、出售和发现独家数字资产。-->
+									<!--	</div>-->
+
+									<!--</div>-->
+								</div>
+
+								<div class="sc-iwajpm jzcNTA"   style="width:90%">
+									<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA" style="padding:18px 8px 18px 8px">
+										<div class="sc-iwajpm cNtwyy sc-dkdfPn jDmxXf">
+											<div class="sc-gKAaRy sc-dwxYdI eXsKmp iycgkA">
+												<div class="table-responsive">
+													<table class="table table-striped table-sm">
+														<thead>
+															<tr>
+																<th>ID</th>
+																<th>金额</th>
+																<th>时间</th>
+																<th>备注</th>
+															</tr>
+														</thead>
+														<tbody>
+														    {foreach $list as $key=>$vo}
+															<tr>
+																<td>{$vo.id}</td>
+																<td>{$vo.money}</td>
+																<td>{$vo.time}</td>
+																<td>{$vo.reason}</td>
+															</tr>
+															{/foreach}
+
+														</tbody>
+													</table>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<style>
+						table,
+						tr {
+							box-sizing: border-box;
+						}
+					</style>
+					<!-- ======================================
+                ********* Page Wrapper Area End ***********
+                ======================================= -->
+
+					<!-- Must needed plugins to the run this Template -->
+					<script src="/nstatic/js/jquery.min.js"></script>
+					<script src="/nstatic/js/popper.min.js"></script>
+					<script src="/nstatic/js/bootstrap.min.js"></script>
+					<script src="/nstatic/js/admetro.bundle.js"></script>
+
+					<!-- Active JS -->
+					<script src="/nstatic/js/default-assets/active.js"></script>
+
+					<!-- These plugins only need for the run this page -->
+					<script src="/nstatic/js/default-assets/todolist.js"></script>
+					<script src="/nstatic/js/default-assets/bootstrap-growl.min.js"></script>
+					<script src="/nstatic/js/default-assets/bootstrap-growl-active.js"></script>
+
+					<script src="/nstatic/js/default-assets/sparkline-small.js"></script>
+					<script src="/nstatic/js/default-assets/sparkline.min.js"></script>
+					<script src="/nstatic/js/default-assets/sparkline.js"></script>
+					<script src="/nstatic/js/default-assets/chart-sparkline.js"></script>
+					<script src="/nstatic/js/amcharts.js"></script>
+					<script src="/nstatic/js/serial.js"></script>
+					<script src="/nstatic/js/light.js"></script>
+					<script src="/nstatic/js/default-assets/column-barchart.js"></script>
+					<script src="/nstatic/js/default-assets/line-and-areachart.js"></script>
+
+					<script src="/nstatic/js/d3.min.js"></script>
+					<script src="/nstatic/js/c3.min.js"></script>
+					<script src="/nstatic/js/default-assets/c3-api-chart.js"></script>
+					<script src="/nstatic/js/default-assets/c3-chart-script.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,1210 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>BEGIN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="static/js" name="description">
+        <meta content="BEGIN" name="author">
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="">
+    
+        <link href="static/css/chartist.min.css" rel="stylesheet">
+    
+        <!-- Bootstrap Css -->
+        <link href="static/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css">
+        <!-- Icons Css -->
+        <link href="static/css/icons.min.css" rel="stylesheet" type="text/css">
+        <!-- App Css-->
+        <link href="static/css/app.min.css" id="app-style" rel="stylesheet" type="text/css">
+    
+    </head>
+
+    <body data-sidebar="light" data-topbar="dark" class="sidebar-enable">
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+
+            
+            <header id="page-topbar">
+                <div class="navbar-header">
+                    <div class="d-flex">
+                        <!-- LOGO -->
+                        <div class="navbar-brand-box">
+                            <a href="#" class="logo logo-dark">
+                                <span class="logo-sm">
+                                    <img src="./adminss_files/logo-sm.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="./adminss_files/logo-dark.png" alt="" height="17">
+                                </span>
+                            </a>
+
+                            <a href="https://themesbrand.com/veltrix/layouts/index.html" class="logo logo-light">
+                                <span class="logo-sm">
+                                    <img src="./adminss_files/logo-sm.png" alt="" height="22">
+                                </span>
+                                <span class="logo-lg">
+                                    <img src="./adminss_files/logo-light.png" alt="" height="18">
+                                </span>
+                            </a>
+                        </div>
+
+                        <button type="button" class="btn btn-sm px-3 font-size-24 header-item waves-effect" id="vertical-menu-btn">
+                            <i class="mdi mdi-menu"></i>
+                        </button>
+
+                        <div class="d-none d-sm-block">
+                            <div class="dropdown pt-3 d-inline-block">
+                                <a class="btn btn-secondary dropdown-toggle" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Create <i class="mdi mdi-chevron-down"></i>
+                                    </a>
+
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Action</a>
+                                    <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Another action</a>
+                                    <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Something else here</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Separated link</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                          <!-- App Search-->
+                          <form class="app-search d-none d-lg-block">
+                            <div class="position-relative">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="fa fa-search"></span>
+                            </div>
+                        </form>
+
+                        <div class="dropdown d-inline-block d-lg-none ms-2">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="mdi mdi-magnify"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-search-dropdown">
+                    
+                                <form class="p-3">
+                                    <div class="form-group m-0">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient&#39;s username">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-none d-md-block ms-2">
+                            <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="me-2" src="./adminss_files/us_flag.jpg" alt="Header Language" height="16"> English <span class="mdi mdi-chevron-down"></span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                    
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="./adminss_files/germany_flag.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> German </span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="./adminss_files/italy_flag.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Italian </span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="./adminss_files/french_flag.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> French </span>
+                                </a>
+
+                                <!-- item-->
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="./adminss_files/spain_flag.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Spanish </span>
+                                </a>
+
+                                 <!-- item-->
+                                 <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <img src="./adminss_files/russia_flag.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle"> Russian </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-none d-lg-inline-block">
+                            <button type="button" class="btn header-item noti-icon waves-effect" data-bs-toggle="fullscreen">
+                                <i class="mdi mdi-fullscreen"></i>
+                            </button>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="mdi mdi-bell-outline"></i>
+                                <span class="badge bg-danger rounded-pill">3</span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown">
+                                <div class="p-3">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            <h5 class="m-0 font-size-16"> Notifications (258) </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-simplebar="init" style="max-height: 230px;"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: auto; padding-right: 0px; padding-bottom: 0px; overflow: hidden;"><div class="simplebar-content" style="padding: 0px;">
+                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-success rounded-circle font-size-16">
+                                                        <i class="mdi mdi-cart-outline"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your order is placed</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">Dummy text of the printing and typesetting industry.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                        
+                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-warning rounded-circle font-size-16">
+                                                        <i class="mdi mdi-message-text-outline"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">New Message received</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">You have 87 unread messages</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-info rounded-circle font-size-16">
+                                                        <i class="mdi mdi-glass-cocktail"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your item is shipped</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">It is a long established fact that a reader will</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-primary rounded-circle font-size-16">
+                                                        <i class="mdi mdi-cart-outline"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">Your order is placed</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">Dummy text of the printing and typesetting industry.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+
+                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="text-reset notification-item">
+                                        <div class="d-flex">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar-xs">
+                                                    <span class="avatar-title bg-danger rounded-circle font-size-16">
+                                                        <i class="mdi mdi-message-text-outline"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="mb-1">New Message received</h6>
+                                                <div class="font-size-12 text-muted">
+                                                    <p class="mb-1">You have 87 unread messages</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div></div></div></div><div class="simplebar-placeholder" style="width: 0px; height: 0px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div></div>
+                                <div class="p-2 border-top">
+                                    <div class="d-grid">
+                                        <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                            View all
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img class="rounded-circle header-profile-user" src="./adminss_files/user-4.jpg" alt="Header Avatar">
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <!-- item-->
+                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#"><i class="mdi mdi-account-circle font-size-17 align-middle me-1"></i> Profile</a>
+                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#"><i class="mdi mdi-wallet font-size-17 align-middle me-1"></i> My Wallet</a>
+                                <a class="dropdown-item d-flex align-items-center" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#"><i class="mdi mdi-cog font-size-17 align-middle me-1"></i> Settings<span class="badge bg-success ms-auto">11</span></a>
+                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#"><i class="mdi mdi-lock-open-outline font-size-17 align-middle me-1"></i> Lock screen</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item text-danger" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#"><i class="bx bx-power-off font-size-17 align-middle me-1 text-danger"></i> Logout</a>
+                            </div>
+                        </div>
+
+                        <div class="dropdown d-inline-block">
+                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
+                                <i class="mdi mdi-cog-outline"></i>
+                            </button>
+                        </div>
+            
+                    </div>
+                </div>
+            </header>
+
+            <!-- ========== Left Sidebar Start ========== -->
+            <div class="vertical-menu">
+
+                <div data-simplebar="init" class="h-100"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: -20px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: 100%; padding-right: 20px; padding-bottom: 0px; overflow: hidden scroll;"><div class="simplebar-content" style="padding: 0px;">
+
+                    <!--- Sidemenu -->
+                    <div id="sidebar-menu">
+                        <!-- Left Menu Start -->
+                        <ul class="metismenu list-unstyled" id="side-menu">
+                            <li class="menu-title">Main</li>
+
+                            <li>
+                                <a href="https://themesbrand.com/veltrix/layouts/index.html" class="waves-effect" aria-expanded="false">
+                                    <i class="ti-home"></i><span class="badge rounded-pill bg-primary float-end">1</span>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://themesbrand.com/veltrix/layouts/calendar.html" class=" waves-effect" aria-expanded="false">
+                                    <i class="ti-calendar"></i>
+                                    <span>Calendar</span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-email"></i>
+                                    <span>Email</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false" style="height: 0px;">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-inbox.html">Inbox</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-read.html">Email Read</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-compose.html">Email Compose</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-title">Components</li>
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-package"></i>
+                                    <span>UI Elements</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false" style="height: 0px;">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-alerts.html">Alerts</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-buttons.html">Buttons</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-cards.html">Cards</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-carousel.html">Carousel</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-dropdowns.html">Dropdowns</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-grid.html">Grid</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-images.html">Images</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-lightbox.html">Lightbox</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-modals.html">Modals</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-offcanvas.html">Offcanvas</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-rangeslider.html">Range Slider</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-session-timeout.html">Session Timeout</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-progressbars.html">Progress Bars</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-sweet-alert.html">SweetAlert 2</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-tabs-accordions.html">Tabs &amp; Accordions</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-typography.html">Typography</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-video.html">Video</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-general.html">General</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-colors.html">Colors</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/ui-rating.html">Rating</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect" aria-expanded="false">
+                                    <i class="ti-receipt"></i>
+                                    <span class="badge rounded-pill bg-success float-end">9</span>
+                                    <span>Forms</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-elements.html">Form Elements</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-validation.html">Form Validation</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-advanced.html">Form Advanced</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-editors.html">Form Editors</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-uploads.html">Form File Upload</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-xeditable.html">Form Xeditable</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-repeater.html">Form Repeater</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-wizard.html">Form Wizard</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/form-mask.html">Form Mask</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-pie-chart"></i>
+                                    <span>Charts</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false" style="height: 0px;">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-morris.html">Morris Chart</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-chartist.html">Chartist Chart</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-chartjs.html">Chartjs Chart</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-flot.html">Flot Chart</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-knob.html">Jquery Knob Chart</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/charts-sparkline.html">Sparkline Chart</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-view-grid"></i>
+                                    <span>Tables</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/tables-basic.html">Basic Tables</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/tables-datatable.html">Data Tables</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/tables-responsive.html">Responsive Tables</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/tables-editable.html">Editable Tables</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-face-smile"></i>
+                                    <span>Icons</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false" style="height: 0px;">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-material.html">Material Design</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-fontawesome.html">Font Awesome</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-ion.html">Ion Icons</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-themify.html">Themify Icons</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-dripicons.html">Dripicons</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/icons-typicons.html">Typicons Icons</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" class="waves-effect" aria-expanded="false">
+                                    <i class="ti-location-pin"></i>
+                                    <span class="badge rounded-pill bg-danger float-end">2</span>
+                                    <span>Maps</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/maps-google.html"> Google Map</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/maps-vector.html"> Vector Map</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="menu-title">Extras</li>
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-layout"></i>
+                                    <span>Layouts</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="true" style="height: 0px;">
+                                    <li class="mm-active">
+                                        <a href="javascript: void(0);" class="has-arrow mm-active">Vertical</a>
+                                        <ul class="sub-menu mm-collapse mm-show" aria-expanded="true">
+                                            <li class="mm-active"><a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="active">Light Sidebar</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-compact-sidebar.html">Compact Sidebar</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-icon-sidebar.html">Icon Sidebar</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-boxed.html">Boxed Layout</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-colored-sidebar.html">Colored Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript: void(0);" class="has-arrow">Horizontal</a>
+                                        <ul class="sub-menu mm-collapse" aria-expanded="true">
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-horizontal.html">Horizontal</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-hori-topbar-light.html">Light Topbar</a></li>
+                                            <li><a href="https://themesbrand.com/veltrix/layouts/layouts-hori-boxed.html">Boxed Layout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+
+
+                            <li class="">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-archive"></i>
+                                    <span> Authentication </span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false" style="height: 0px;">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-login.html">Login 1</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-login-2.html">Login 2</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-register.html">Register 1</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-register-2.html">Register 2</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-recoverpw.html">Recover Password 1</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-recoverpw-2.html">Recover Password 2</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-lock-screen.html">Lock Screen 1</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-lock-screen-2.html">Lock Screen 2</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="mm-active">
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="true">
+                                    <i class="ti-support"></i>
+                                    <span>  Extra Pages  </span>
+                                </a>
+                                <ul class="sub-menu mm-collapse mm-show" aria-expanded="false" style="">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-timeline.html">Timeline</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-invoice.html">Invoice</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-directory.html">Directory</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-starter.html">Starter Page</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-404.html">Error 404</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-500.html">Error 500</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-pricing.html">Pricing</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-gallery.html">Gallery</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-maintenance.html">Maintenance</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-comingsoon.html">Coming Soon</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/pages-faq.html">FAQs</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-bookmark-alt"></i>
+                                    <span>  Email Templates  </span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="false">
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-template-basic.html">Basic Action Email</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-template-alert.html">Alert Email</a></li>
+                                    <li><a href="https://themesbrand.com/veltrix/layouts/email-template-billing.html">Billing Email</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="javascript: void(0);" class="has-arrow waves-effect" aria-expanded="false">
+                                    <i class="ti-more"></i>
+                                    <span>Multi Level</span>
+                                </a>
+                                <ul class="sub-menu mm-collapse" aria-expanded="true">
+                                    <li><a href="javascript: void(0);">Level 1.1</a></li>
+                                    <li><a href="javascript: void(0);" class="has-arrow">Level 1.2</a>
+                                        <ul class="sub-menu mm-collapse" aria-expanded="true">
+                                            <li><a href="javascript: void(0);">Level 2.1</a></li>
+                                            <li><a href="javascript: void(0);">Level 2.2</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- Sidebar -->
+                </div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 1248px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: block; height: 741px;"></div></div></div>
+            </div>
+            <!-- Left Sidebar End -->
+
+            
+
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="page-title-box">
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <h6 class="page-title">Light Sidebar</h6>
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Veltrix</a></li>
+                                        <li class="breadcrumb-item"><a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Vertical</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Light Sidebar</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="float-end d-none d-md-block">
+                                        <div class="dropdown">
+                                            <button class="btn btn-primary  dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="mdi mdi-cog me-2"></i> Settings
+                                            </button>
+                                            <div class="dropdown-menu dropdown-menu-end">
+                                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Action</a>
+                                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Another action</a>
+                                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Something else here</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#">Separated link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+
+                        
+                        <div class="row">
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card mini-stat bg-primary text-white">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <div class="float-start mini-stat-img me-4">
+                                                <img src="./adminss_files/01.png" alt="">
+                                            </div>
+                                            <h5 class="font-size-16 text-uppercase text-white-50">Orders</h5>
+                                            <h4 class="fw-medium font-size-24">1,685 <i class="mdi mdi-arrow-up text-success ms-2"></i></h4>
+                                            <div class="mini-stat-label bg-success">
+                                                <p class="mb-0">+ 12%</p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <div class="float-end">
+                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                            </div>
+
+                                            <p class="text-white-50 mb-0 mt-1">Since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card mini-stat bg-primary text-white">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <div class="float-start mini-stat-img me-4">
+                                                <img src="./adminss_files/02.png" alt="">
+                                            </div>
+                                            <h5 class="font-size-16 text-uppercase text-white-50">Revenue</h5>
+                                            <h4 class="fw-medium font-size-24">52,368 <i class="mdi mdi-arrow-down text-danger ms-2"></i></h4>
+                                            <div class="mini-stat-label bg-danger">
+                                                <p class="mb-0">- 28%</p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <div class="float-end">
+                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                            </div>
+
+                                            <p class="text-white-50 mb-0 mt-1">Since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card mini-stat bg-primary text-white">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <div class="float-start mini-stat-img me-4">
+                                                <img src="./adminss_files/03.png" alt="">
+                                            </div>
+                                            <h5 class="font-size-16 text-uppercase text-white-50">Average Price</h5>
+                                            <h4 class="fw-medium font-size-24">15.8 <i class="mdi mdi-arrow-up text-success ms-2"></i></h4>
+                                            <div class="mini-stat-label bg-info">
+                                                <p class="mb-0"> 00%</p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <div class="float-end">
+                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                            </div>
+
+                                            <p class="text-white-50 mb-0 mt-1">Since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-6">
+                                <div class="card mini-stat bg-primary text-white">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <div class="float-start mini-stat-img me-4">
+                                                <img src="./adminss_files/04.png" alt="">
+                                            </div>
+                                            <h5 class="font-size-16 text-uppercase text-white-50">Product Sold</h5>
+                                            <h4 class="fw-medium font-size-24">2436 <i class="mdi mdi-arrow-up text-success ms-2"></i></h4>
+                                            <div class="mini-stat-label bg-warning">
+                                                <p class="mb-0">+ 84%</p>
+                                            </div>
+                                        </div>
+                                        <div class="pt-2">
+                                            <div class="float-end">
+                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-white-50"><i class="mdi mdi-arrow-right h5"></i></a>
+                                            </div>
+
+                                            <p class="text-white-50 mb-0 mt-1">Since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-xl-9">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Monthly Earning</h4>
+                                        <div class="row">
+                                            <div class="col-lg-7">
+                                                <div>
+                                                    <div id="chart-with-area" class="ct-chart earning ct-golden-section">
+                                                    <div class="chartist-tooltip" style="top: 271px; left: 45px;"></div><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;"><g class="ct-grids"><line x1="50" x2="50" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="157.58203125" x2="157.58203125" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="265.1640625" x2="265.1640625" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="372.74609375" x2="372.74609375" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="480.328125" x2="480.328125" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="587.91015625" x2="587.91015625" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="695.4921875" x2="695.4921875" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line x1="803.07421875" x2="803.07421875" y1="15" y2="265" class="ct-grid ct-horizontal"></line><line y1="265" y2="265" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="237.22222222222223" y2="237.22222222222223" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="209.44444444444446" y2="209.44444444444446" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="181.66666666666669" y2="181.66666666666669" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="153.88888888888889" y2="153.88888888888889" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="126.11111111111111" y2="126.11111111111111" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="98.33333333333334" y2="98.33333333333334" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="70.55555555555554" y2="70.55555555555554" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="42.77777777777777" y2="42.77777777777777" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line><line y1="15" y2="15" x1="50" x2="910.65625" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M50,265L50,126.111C85.861,89.074,121.721,15,157.582,15C193.443,15,229.303,70.556,265.164,70.556C301.025,70.556,336.885,42.778,372.746,42.778C408.607,42.778,444.467,103.889,480.328,126.111C516.189,148.333,552.049,181.667,587.91,181.667C623.771,181.667,659.632,126.111,695.492,126.111C731.353,126.111,767.214,144.63,803.074,153.889L803.074,265Z" class="ct-area"></path><path d="M50,126.111C85.861,89.074,121.721,15,157.582,15C193.443,15,229.303,70.556,265.164,70.556C301.025,70.556,336.885,42.778,372.746,42.778C408.607,42.778,444.467,103.889,480.328,126.111C516.189,148.333,552.049,181.667,587.91,181.667C623.771,181.667,659.632,126.111,695.492,126.111C731.353,126.111,767.214,144.63,803.074,153.889" class="ct-line"></path><line x1="50" y1="126.11111111111111" x2="50.01" y2="126.11111111111111" class="ct-point" ct:value="5"></line><line x1="157.58203125" y1="15" x2="157.59203125" y2="15" class="ct-point" ct:value="9"></line><line x1="265.1640625" y1="70.55555555555554" x2="265.1740625" y2="70.55555555555554" class="ct-point" ct:value="7"></line><line x1="372.74609375" y1="42.77777777777777" x2="372.75609375" y2="42.77777777777777" class="ct-point" ct:value="8"></line><line x1="480.328125" y1="126.11111111111111" x2="480.338125" y2="126.11111111111111" class="ct-point" ct:value="5"></line><line x1="587.91015625" y1="181.66666666666669" x2="587.92015625" y2="181.66666666666669" class="ct-point" ct:value="3"></line><line x1="695.4921875" y1="126.11111111111111" x2="695.5021875" y2="126.11111111111111" class="ct-point" ct:value="5"></line><line x1="803.07421875" y1="153.88888888888889" x2="803.08421875" y2="153.88888888888889" class="ct-point" ct:value="4"></line></g></g><g class="ct-labels"><foreignobject style="overflow: visible;" x="50" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">1</span></foreignobject><foreignobject style="overflow: visible;" x="157.58203125" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">2</span></foreignobject><foreignobject style="overflow: visible;" x="265.1640625" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">3</span></foreignobject><foreignobject style="overflow: visible;" x="372.74609375" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">4</span></foreignobject><foreignobject style="overflow: visible;" x="480.328125" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">5</span></foreignobject><foreignobject style="overflow: visible;" x="587.91015625" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">6</span></foreignobject><foreignobject style="overflow: visible;" x="695.4921875" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">7</span></foreignobject><foreignobject style="overflow: visible;" x="803.07421875" y="270" width="107.58203125" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 108px; height: 20px;">8</span></foreignobject><foreignobject style="overflow: visible;" y="237.22222222222223" x="10" height="27.77777777777778" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">0</span></foreignobject><foreignobject style="overflow: visible;" y="209.44444444444446" x="10" height="27.77777777777778" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">1</span></foreignobject><foreignobject style="overflow: visible;" y="181.66666666666669" x="10" height="27.77777777777777" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">2</span></foreignobject><foreignobject style="overflow: visible;" y="153.8888888888889" x="10" height="27.777777777777786" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">3</span></foreignobject><foreignobject style="overflow: visible;" y="126.11111111111111" x="10" height="27.77777777777777" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">4</span></foreignobject><foreignobject style="overflow: visible;" y="98.33333333333334" x="10" height="27.77777777777777" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">5</span></foreignobject><foreignobject style="overflow: visible;" y="70.55555555555554" x="10" height="27.7777777777778" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">6</span></foreignobject><foreignobject style="overflow: visible;" y="42.77777777777777" x="10" height="27.77777777777777" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">7</span></foreignobject><foreignobject style="overflow: visible;" y="15" x="10" height="27.77777777777777" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 28px; width: 30px;">8</span></foreignobject><foreignobject style="overflow: visible;" y="-15" x="10" height="30" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 30px; width: 30px;">9</span></foreignobject></g></svg></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="text-center">
+                                                            <p class="text-muted mb-4">This month</p>
+                                                            <h3>$34,252</h3>
+                                                            <p class="text-muted mb-5">It will be as simple as in fact it
+                                                                will be occidental.</p>
+                                                            <span class="peity-donut" data-peity="{ &quot;fill&quot;: [&quot;#02a499&quot;, &quot;#f2f2f2&quot;], &quot;innerRadius&quot;: 28, &quot;radius&quot;: 32 }" data-width="72" data-height="72" style="display: none;">4/5</span><svg class="peity" height="72" width="72"><path d="M 36 0 A 36 36 0 1 1 1.7619654133744689 24.875388202501895 L 9.370417543735698 27.347524157501475 A 28 28 0 1 0 36 8" data-value="4" fill="#02a499"></path><path d="M 1.7619654133744689 24.875388202501895 A 36 36 0 0 1 35.99999999999999 0 L 35.99999999999999 8 A 28 28 0 0 0 9.370417543735698 27.347524157501475" data-value="1" fill="#f2f2f2"></path></svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="text-center">
+                                                            <p class="text-muted mb-4">Last month</p>
+                                                            <h3>$36,253</h3>
+                                                            <p class="text-muted mb-5">It will be as simple as in fact it
+                                                                will be occidental.</p>
+                                                            <span class="peity-donut" data-peity="{ &quot;fill&quot;: [&quot;#02a499&quot;, &quot;#f2f2f2&quot;], &quot;innerRadius&quot;: 28, &quot;radius&quot;: 32 }" data-width="72" data-height="72" style="display: none;">3/5</span><svg class="peity" height="72" width="72"><path d="M 36 0 A 36 36 0 1 1 14.83973091747097 65.1246117974981 L 19.542012935810757 58.65247584249853 A 28 28 0 1 0 36 8" data-value="3" fill="#02a499"></path><path d="M 14.83973091747097 65.1246117974981 A 36 36 0 0 1 35.99999999999999 0 L 35.99999999999999 8 A 28 28 0 0 0 19.542012935810757 58.65247584249853" data-value="2" fill="#f2f2f2"></path></svg>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- end row -->
+                                    </div>
+                                </div>
+                                <!-- end card -->
+                            </div>
+
+                            <div class="col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div>
+                                            <h4 class="card-title mb-4">Sales Analytics</h4>
+                                        </div>
+                                        <div class="wid-peity mb-4">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <p class="text-muted">Online</p>
+                                                        <h5 class="mb-4">1,542</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-4">
+                                                        <span class="peity-line" data-width="100%" data-peity="{ &quot;fill&quot;: [&quot;rgba(2, 164, 153,0.3)&quot;],&quot;stroke&quot;: [&quot;rgba(2, 164, 153,0.8)&quot;]}" data-height="60" style="display: none;">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span><svg class="peity" height="60" width="100%"><polygon fill="rgba(2, 164, 153,0.3)" points="0 59.5 0 20.16666666666667 12.31578947368421 46.388888888888886 24.63157894736842 7.055555555555557 36.94736842105263 33.27777777777778 49.26315789473684 39.833333333333336 61.578947368421055 7.055555555555557 73.89473684210526 52.94444444444444 86.21052631578948 39.833333333333336 98.52631578947368 20.16666666666667 110.84210526315789 26.72222222222222 123.15789473684211 0.5 135.47368421052633 46.388888888888886 147.78947368421052 7.055555555555557 160.10526315789474 52.94444444444444 172.42105263157896 33.27777777777778 184.73684210526315 7.055555555555557 197.05263157894737 0.5 209.3684210526316 7.055555555555557 221.68421052631578 46.388888888888886 234 52.94444444444444 234 59.5"></polygon><polyline fill="none" points="0 20.16666666666667 12.31578947368421 46.388888888888886 24.63157894736842 7.055555555555557 36.94736842105263 33.27777777777778 49.26315789473684 39.833333333333336 61.578947368421055 7.055555555555557 73.89473684210526 52.94444444444444 86.21052631578948 39.833333333333336 98.52631578947368 20.16666666666667 110.84210526315789 26.72222222222222 123.15789473684211 0.5 135.47368421052633 46.388888888888886 147.78947368421052 7.055555555555557 160.10526315789474 52.94444444444444 172.42105263157896 33.27777777777778 184.73684210526315 7.055555555555557 197.05263157894737 0.5 209.3684210526316 7.055555555555557 221.68421052631578 46.388888888888886 234 52.94444444444444" stroke="rgba(2, 164, 153,0.8)" stroke-width="1" stroke-linecap="square"></polyline></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="wid-peity mb-4">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <p class="text-muted">Offline</p>
+                                                        <h5 class="mb-4">6,451</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-4">
+                                                        <span class="peity-line" data-width="100%" data-peity="{ &quot;fill&quot;: [&quot;rgba(2, 164, 153,0.3)&quot;],&quot;stroke&quot;: [&quot;rgba(2, 164, 153,0.8)&quot;]}" data-height="60" style="display: none;">6,2,8,4,-3,8,1,-3,6,-5,9,2,-8,1,4,8,9,8,2,1</span><svg class="peity" height="60" width="100%"><polygon fill="rgba(2, 164, 153,0.3)" points="0 31.735294117647058 0 10.911764705882355 12.31578947368421 24.79411764705882 24.63157894736842 3.970588235294116 36.94736842105263 17.852941176470587 49.26315789473684 42.147058823529406 61.578947368421055 3.970588235294116 73.89473684210526 28.264705882352942 86.21052631578948 42.147058823529406 98.52631578947368 10.911764705882355 110.84210526315789 49.088235294117645 123.15789473684211 0.5 135.47368421052633 24.79411764705882 147.78947368421052 59.5 160.10526315789474 28.264705882352942 172.42105263157896 17.852941176470587 184.73684210526315 3.970588235294116 197.05263157894737 0.5 209.3684210526316 3.970588235294116 221.68421052631578 24.79411764705882 234 28.264705882352942 234 31.735294117647058"></polygon><polyline fill="none" points="0 10.911764705882355 12.31578947368421 24.79411764705882 24.63157894736842 3.970588235294116 36.94736842105263 17.852941176470587 49.26315789473684 42.147058823529406 61.578947368421055 3.970588235294116 73.89473684210526 28.264705882352942 86.21052631578948 42.147058823529406 98.52631578947368 10.911764705882355 110.84210526315789 49.088235294117645 123.15789473684211 0.5 135.47368421052633 24.79411764705882 147.78947368421052 59.5 160.10526315789474 28.264705882352942 172.42105263157896 17.852941176470587 184.73684210526315 3.970588235294116 197.05263157894737 0.5 209.3684210526316 3.970588235294116 221.68421052631578 24.79411764705882 234 28.264705882352942" stroke="rgba(2, 164, 153,0.8)" stroke-width="1" stroke-linecap="square"></polyline></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div>
+                                                        <p class="text-muted">Marketing</p>
+                                                        <h5>84,574</h5>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="mb-4">
+                                                        <span class="peity-line" data-width="100%" data-peity="{ &quot;fill&quot;: [&quot;rgba(2, 164, 153,0.3)&quot;],&quot;stroke&quot;: [&quot;rgba(2, 164, 153,0.8)&quot;]}" data-height="60" style="display: none;">6,2,8,4,3,8,1,3,6,5,9,2,8,1,4,8,9,8,2,1</span><svg class="peity" height="60" width="100%"><polygon fill="rgba(2, 164, 153,0.3)" points="0 59.5 0 20.16666666666667 12.31578947368421 46.388888888888886 24.63157894736842 7.055555555555557 36.94736842105263 33.27777777777778 49.26315789473684 39.833333333333336 61.578947368421055 7.055555555555557 73.89473684210526 52.94444444444444 86.21052631578948 39.833333333333336 98.52631578947368 20.16666666666667 110.84210526315789 26.72222222222222 123.15789473684211 0.5 135.47368421052633 46.388888888888886 147.78947368421052 7.055555555555557 160.10526315789474 52.94444444444444 172.42105263157896 33.27777777777778 184.73684210526315 7.055555555555557 197.05263157894737 0.5 209.3684210526316 7.055555555555557 221.68421052631578 46.388888888888886 234 52.94444444444444 234 59.5"></polygon><polyline fill="none" points="0 20.16666666666667 12.31578947368421 46.388888888888886 24.63157894736842 7.055555555555557 36.94736842105263 33.27777777777778 49.26315789473684 39.833333333333336 61.578947368421055 7.055555555555557 73.89473684210526 52.94444444444444 86.21052631578948 39.833333333333336 98.52631578947368 20.16666666666667 110.84210526315789 26.72222222222222 123.15789473684211 0.5 135.47368421052633 46.388888888888886 147.78947368421052 7.055555555555557 160.10526315789474 52.94444444444444 172.42105263157896 33.27777777777778 184.73684210526315 7.055555555555557 197.05263157894737 0.5 209.3684210526316 7.055555555555557 221.68421052631578 46.388888888888886 234 52.94444444444444" stroke="rgba(2, 164, 153,0.8)" stroke-width="1" stroke-linecap="square"></polyline></svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-xl-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Sales Report</h4>
+
+                                        <div class="cleafix">
+                                            <p class="float-start"><i class="mdi mdi-calendar me-1 text-primary"></i> Jan 01
+                                                - Jan 31</p>
+                                            <h5 class="font-18 text-end">$4230</h5>
+                                        </div>
+
+                                        <div id="ct-donut" class="ct-chart wid"><div class="chartist-tooltip" style="top: 195px; left: 173px;"><span class="chartist-tooltip-value">28</span></div><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-donut" style="width: 100%; height: 100%;"><g class="ct-series ct-series-a"><path d="M222.053,201.557A85,85,0,1,0,246,35" class="ct-slice-donut" ct:value="54" style="stroke-width: 60px;"></path></g><g class="ct-series ct-series-b"><path d="M171.076,79.857A85,85,0,0,0,222.338,201.64" class="ct-slice-donut" ct:value="28" style="stroke-width: 60px;"></path></g><g class="ct-series ct-series-c"><path d="M246,35A85,85,0,0,0,170.937,80.119" class="ct-slice-donut" ct:value="17" style="stroke-width: 60px;"></path></g></svg></div>
+
+                                        <div class="mt-4">
+                                            <table class="table mb-0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td><span class="badge bg-primary">Desk</span></td>
+                                                        <td>Desktop</td>
+                                                        <td class="text-end">54.5%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge bg-success">Mob</span></td>
+                                                        <td>Mobile</td>
+                                                        <td class="text-end">28.0%</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><span class="badge bg-warning">Tab</span></td>
+                                                        <td>Tablets</td>
+                                                        <td class="text-end">17.5%</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Activity</h4>
+                                        <ol class="activity-feed">
+                                            <li class="feed-item">
+                                                <div class="feed-item-list">
+                                                    <span class="date">Jan 22</span>
+                                                    <span class="activity-text">Responded to need “Volunteer
+                                                        Activities”</span>
+                                                </div>
+                                            </li>
+                                            <li class="feed-item">
+                                                <div class="feed-item-list">
+                                                    <span class="date">Jan 20</span>
+                                                    <span class="activity-text">At vero eos et accusamus et iusto odio
+                                                        dignissimos ducimus qui deleniti atque...<a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-success">Read more</a></span>
+                                                </div>
+                                            </li>
+                                            <li class="feed-item">
+                                                <div class="feed-item-list">
+                                                    <span class="date">Jan 19</span>
+                                                    <span class="activity-text">Joined the group “Boardsmanship
+                                                        Forum”</span>
+                                                </div>
+                                            </li>
+                                            <li class="feed-item">
+                                                <div class="feed-item-list">
+                                                    <span class="date">Jan 17</span>
+                                                    <span class="activity-text">Responded to need “In-Kind
+                                                        Opportunity”</span>
+                                                </div>
+                                            </li>
+                                            <li class="feed-item">
+                                                <div class="feed-item-list">
+                                                    <span class="date">Jan 16</span>
+                                                    <span class="activity-text">Sed ut perspiciatis unde omnis iste natus
+                                                        error sit rem.</span>
+                                                </div>
+                                            </li>
+                                        </ol>
+                                        <div class="text-center">
+                                            <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary">Load More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xl-5">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="card text-center">
+                                            <div class="card-body">
+                                                <div class="py-4">
+                                                    <i class="ion ion-ios-checkmark-circle-outline display-4 text-success"></i>
+
+                                                    <h5 class="text-primary mt-4">Order Successful</h5>
+                                                    <p class="text-muted">Thanks you so much for your order.</p>
+                                                    <div class="mt-4">
+                                                        <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html" class="btn btn-primary btn-sm">Chack Status</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="card bg-primary">
+                                            <div class="card-body">
+                                                <div class="text-center text-white py-4">
+                                                    <h5 class="mb-4 text-white-50 font-size-16">Top Product Sale</h5>
+                                                    <h1>1452</h1>
+                                                    <p class="font-size-14 pt-1">Computer</p>
+                                                    <p class="text-white-50 mb-0">At solmen va esser necessi far uniform
+                                                        myth... <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-white">View more</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <h4 class="card-title mb-4">Client Reviews</h4>
+                                                <p class="text-muted mb-3 pb-4">" Everyone realizes why a new common
+                                                    language would be desirable one could refuse to pay expensive
+                                                    translators it would be necessary. "</p>
+                                                <div class="float-end mt-2">
+                                                    <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="text-primary">
+                                                        <i class="mdi mdi-arrow-right h5"></i>
+                                                    </a>
+                                                </div>
+                                                <h6 class="mb-0"><img src="./adminss_files/user-3.jpg" alt="" class="avatar-sm rounded-circle me-2"> James Athey</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-xl-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Latest Transaction</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-hover table-centered table-nowrap mb-0">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">(#) Id</th>
+                                                        <th scope="col">Name</th>
+                                                        <th scope="col">Date</th>
+                                                        <th scope="col">Amount</th>
+                                                        <th scope="col" colspan="2">Status</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">#14256</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-2.jpg" alt="" class="avatar-xs rounded-circle me-2"> Philip Smead
+                                                            </div>
+                                                        </td>
+                                                        <td>15/1/2018</td>
+                                                        <td>$94</td>
+                                                        <td><span class="badge bg-success">Delivered</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">#14257</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-3.jpg" alt="" class="avatar-xs rounded-circle me-2"> Brent Shipley
+                                                            </div>
+                                                        </td>
+                                                        <td>16/1/2019</td>
+                                                        <td>$112</td>
+                                                        <td><span class="badge bg-warning">Pending</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">#14258</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-4.jpg" alt="" class="avatar-xs rounded-circle me-2"> Robert Sitton
+                                                            </div>
+                                                        </td>
+                                                        <td>17/1/2019</td>
+                                                        <td>$116</td>
+                                                        <td><span class="badge bg-success">Delivered</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">#14259</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-5.jpg" alt="" class="avatar-xs rounded-circle me-2"> Alberto Jackson
+                                                            </div>
+                                                        </td>
+                                                        <td>18/1/2019</td>
+                                                        <td>$109</td>
+                                                        <td><span class="badge bg-danger">Cancel</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">#14260</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-6.jpg" alt="" class="avatar-xs rounded-circle me-2"> David Sanchez
+                                                            </div>
+                                                        </td>
+                                                        <td>19/1/2019</td>
+                                                        <td>$120</td>
+                                                        <td><span class="badge bg-success">Delivered</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">#14261</th>
+                                                        <td>
+                                                            <div>
+                                                                <img src="./adminss_files/user-2.jpg" alt="" class="avatar-xs rounded-circle me-2"> Philip Smead
+                                                            </div>
+                                                        </td>
+                                                        <td>15/1/2018</td>
+                                                        <td>$94</td>
+                                                        <td><span class="badge bg-warning">Pending</span></td>
+                                                        <td>
+                                                            <div>
+                                                                <a href="https://themesbrand.com/veltrix/layouts/layouts-light-sidebar.html#" class="btn btn-primary btn-sm">Edit</a>
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="card-title mb-4">Chat</h4>
+                                        <div class="chat-conversation">
+                                            <ul class="conversation-list" data-simplebar="init" style="max-height: 367px;"><div class="simplebar-wrapper" style="margin: 0px -10px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: -20px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: auto; padding-right: 20px; padding-bottom: 0px; overflow: hidden scroll;"><div class="simplebar-content" style="padding: 0px 10px;">
+                                                <li class="clearfix">
+                                                    <div class="chat-avatar">
+                                                        <img src="./adminss_files/user-2.jpg" class="avatar-xs rounded-circle" alt="male">
+                                                        <span class="time">10:00</span>
+                                                    </div>
+                                                    <div class="conversation-text">
+                                                        <div class="ctext-wrap">
+                                                            <span class="user-name">John Deo</span>
+                                                            <p>
+                                                                Hello!
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="clearfix odd">
+                                                    <div class="chat-avatar">
+                                                        <img src="./adminss_files/user-3.jpg" class="avatar-xs rounded-circle" alt="Female">
+                                                        <span class="time">10:01</span>
+                                                    </div>
+                                                    <div class="conversation-text">
+                                                        <div class="ctext-wrap">
+                                                            <span class="user-name">Smith</span>
+                                                            <p>
+                                                                Hi, How are you? What about our next meeting?
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="clearfix">
+                                                    <div class="chat-avatar">
+                                                        <img src="./adminss_files/user-2.jpg" class="avatar-xs rounded-circle" alt="male">
+                                                        <span class="time">10:04</span>
+                                                    </div>
+                                                    <div class="conversation-text">
+                                                        <div class="ctext-wrap">
+                                                            <span class="user-name">John Deo</span>
+                                                            <p>
+                                                                Yeah everything is fine
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="clearfix odd">
+                                                    <div class="chat-avatar">
+                                                        <img src="./adminss_files/user-3.jpg" class="avatar-xs rounded-circle" alt="male">
+                                                        <span class="time">10:05</span>
+                                                    </div>
+                                                    <div class="conversation-text">
+                                                        <div class="ctext-wrap">
+                                                            <span class="user-name">Smith</span>
+                                                            <p>
+                                                                Wow that's great
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="clearfix odd">
+                                                    <div class="chat-avatar">
+                                                        <img src="./adminss_files/user-3.jpg" class="avatar-xs rounded-circle" alt="male">
+                                                        <span class="time">10:08</span>
+                                                    </div>
+                                                    <div class="conversation-text">
+                                                        <div class="ctext-wrap">
+                                                            <span class="user-name mb-2">Smith</span>
+
+                                                            <img src="./adminss_files/img-1.jpg" alt="" height="48" class="rounded me-2">
+                                                            <img src="./adminss_files/img-2.jpg" alt="" height="48" class="rounded">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 458px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: visible;"><div class="simplebar-scrollbar" style="height: 307px; transform: translate3d(0px, 0px, 0px); display: block;"></div></div></ul>
+                                            <div class="row">
+                                                <div class="col-sm-9 col-8 chat-inputbar">
+                                                    <input type="text" class="form-control chat-input" placeholder="Enter your text">
+                                                </div>
+                                                <div class="col-sm-3 col-4 chat-send">
+                                                    <div class="d-grid">
+                                                        <button type="submit" class="btn btn-success">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+
+
+
+                    </div> <!-- container-fluid -->
+                </div>
+                <!-- End Page-content -->
+
+
+                
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                © <script>document.write(new Date().getFullYear())</script>2022 Veltrix<span class="d-none d-sm-inline-block"> - Crafted with <i class="mdi mdi-heart text-danger"></i> by Themesbrand.</span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+            <!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+            <div data-simplebar="init" class="h-100"><div class="simplebar-wrapper" style="margin: 0px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" style="height: 100%; padding-right: 0px; padding-bottom: 0px; overflow: hidden;"><div class="simplebar-content" style="padding: 0px;">
+                <div class="rightbar-title px-3 py-4">
+                    <a href="javascript:void(0);" class="right-bar-toggle float-end">
+                        <i class="mdi mdi-close noti-icon"></i>
+                    </a>
+                    <h5 class="m-0">Settings</h5>
+                </div>
+
+                <!-- Settings -->
+                <hr class="mt-0">
+                <h6 class="text-center">Choose Layouts</h6>
+
+                <div class="p-4">
+                    <div class="mb-2">
+                        <img src="./adminss_files/layout-1.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input theme-choice" id="light-mode-switch" checked="">
+                        <label class="form-check-label" for="light-mode-switch">Light Mode</label>
+                    </div>
+    
+                    <div class="mb-2">
+                        <img src="./adminss_files/layout-2.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="form-check form-switch mb-3">
+                        <input type="checkbox" class="form-check-input theme-choice" id="dark-mode-switch" data-bsstyle="assets/css/bootstrap-dark.min.css" data-appstyle="assets/css/app-dark.min.css">
+                        <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
+                    </div>
+    
+                    <div class="mb-2">
+                        <img src="./adminss_files/layout-3.jpg" class="img-fluid img-thumbnail" alt="">
+                    </div>
+                    <div class="form-check form-switch mb-5">
+                        <input type="checkbox" class="form-check-input theme-choice" id="rtl-mode-switch" data-appstyle="assets/css/app-rtl.min.css">
+                        <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
+                    </div>
+                    <div class="d-grid">
+                        <a href="https://1.envato.market/grNDB" class="btn btn-primary mt-3" target="_blank"><i class="mdi mdi-cart me-1"></i> Purchase Now</a>
+                    </div>
+                </div>
+
+            </div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 930px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div></div> <!-- end slimscroll-menu-->
+        </div>
+        <!-- /Right-bar -->
+
+        <!-- Right bar overlay-->
+        <div class="rightbar-overlay"></div>
+
+                <!-- JAVASCRIPT -->
+                <script src="static/js/jquery.min.js"></script>
+                <script src="static/js/bootstrap.bundle.min.js"></script>
+                <script src="static/js/metisMenu.min.js"></script>
+                <script src="static/js/simplebar.min.js"></script>
+                <script src="static/js/waves.min.js"></script>
+
+
+        <!-- Peity chart-->
+        <script src="static/js/jquery.peity.min.js"></script>
+
+        <!-- Plugin Js-->
+        <script src="static/js/chartist.min.js"></script>
+        <script src="static/js/chartist-plugin-tooltip.min.js"></script>
+
+        <script src="static/js/dashboard.init.js"></script>
+
+        <script src="static/js/app.js"></script>
+
+    
+
+</body></html>
